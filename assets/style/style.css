@@ -460,7 +460,7 @@ Home Page Section
 */
 
 .breadcrumb-sec {
-  background-image: url("/assets/image/background/bredcrumb.png");
+  background-image: url("assets/image/background/bredcrumb.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
