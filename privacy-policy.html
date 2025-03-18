@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NGO</title>
+
+    <!-- Bootstrap Style CDN Link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+
+    <!-- Fontawesome CDN Links  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+    <!-- External Style Sheet  -->
+    <link rel="stylesheet" href="assets/style/style.css" />
+</head>
+
+<body>
+    <!-- Top Navbar  -->
+    <div class="py-2" style="background-color: #0B8B68;">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center gap-3">
+                <span><i class="fa-solid fa-envelope text-white"></i> <a href=""
+                        class="text-white text-decoration-none"> samskaara@gmail.com</a></span>
+                <span><i class="fa-solid fa-phone text-white"></i> <a href="tell:7760776677"
+                        class="text-white text-decoration-none">7760776677</a></span>
+            </div>
+            <ul class="list-unstyled m-0 d-flex align-items-center gap-4 justify-content-center">
+                <li><a href="#"><i class="fa-brands fa-facebook-f text-white"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram text-white"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin-in text-white"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-x-twitter text-white"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-youtube text-white"></i></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Main Navbar  -->
+    <header class="header">
+        <!-- ******************************* def-container  (add this class in nav )-->
+        <nav class="nav container">
+            <div class="nav__data">
+                <a href="index.html" class="nav__logo">
+                    <img src="assets/image/logo1.jpeg" alt="logo">
+                    <!-- <h3>NGO</h3> -->
+                </a>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line nav__toggle-menu"></i>
+                    <i class="ri-close-line nav__toggle-close"></i>
+                </div>
+            </div>
+
+            <!-- Nav Menu  -->
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li>
+                        <a href="index.html" class="nav__link">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="aboutus.html" class="nav__link">About Us</a>
+                    </li>
+
+                    <!-- dropdown 2 -->
+                    <li class="dropdown__item">
+                        <div class="nav__link dropdown__button">
+                            What we do <i class="fa-solid fa-angle-down"></i>
+                        </div>
+
+                        <div class="dropdown__container">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+                                    <!-- <span class="dropdown__title">Teachers</span> -->
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="education.html" class="dropdown__link">Education for All</a>
+                                        </li>
+                                        <li>
+                                            <a href="women.html" class="dropdown__link">Women Empowerment</a>
+                                        </li>
+                                        <li>
+                                            <a href="gurukul.html" class="dropdown__link">Gurukul</a>
+                                        </li>
+                                        <li>
+                                            <a href="spirituality.html" class="dropdown__link">Spirituality</a>
+                                        </li>
+                                        <li>
+                                            <a href="skill-development.html" class="dropdown__link">Skill
+                                                Development</a>
+                                        </li>
+                                        <li>
+                                            <a href="school-development.html" class="dropdown__link">Schools
+                                                Development</a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- dropdown 3 -->
+                    <li class="dropdown__item">
+                        <div class="nav__link dropdown__button">
+                            Get Involved <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                        <div class="dropdown__container">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="volunteer.html" class="dropdown__link">Volunteer</a>
+                                        </li>
+                                        <li>
+                                            <a href="feedback.html" class="dropdown__link">Feedback & suggestion</a>
+                                        </li>
+                                        <li>
+                                            <a href="board-of-trustees.html" class="dropdown__link">Board of
+                                                Trustees</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a href="donation.html" class="nav__link">Donate</a>
+                    </li>
+
+                    <li>
+                        <a href="blog.html" class="nav__link">Blog</a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html" class="nav__link">Contact Us</a>
+                    </li>
+
+                    <li>
+                        <a href="donation-details.html" class="nav__link">
+                            <span class="donate-btn"><i class="fa fa-heart"></i> Donate</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="py-5" style="background-color: aliceblue;">
+        <div class="container">
+            <div>
+                <h1 style="border-bottom: 5px solid green; display: inline-block; padding-bottom: 2px;">
+                    Privacy policy
+                </h1>
+                <p>
+                    This website, owned and operated by Samskaara, is dedicated to protecting your privacy. We value the
+                    trust you
+                    place in us and are committed to ensuring the security of any information you share. This Privacy
+                    Policy
+                    explains how we collect, use, and protect your data with transparency and responsibility. Please
+                    note that this
+                    policy may be updated from time to time, and we encourage you to review it periodically to stay
+                    informed about
+                    any changes. This policy has been in effect since Novembar 9,2025.
+                </p>
+                <p>
+                    If you have any questions about our Privacy Policy, you may contact us at: Samskaara <br>
+                    No 95 , 1 st Main Road, Block 3, <br>
+                    BEMI Layout Stage 4, <br>
+                    Rajarajeshwari Nagara, <br>
+                    Bangalore-560098, Karnataka <br>
+                    ph -+91-7760776677 <br>
+                    E-mail - Samskaara@gmail.com
+                </p>
+                <h4>Personal Information</h4>
+                <p>
+                    Samskaara is committed to protecting the privacy of our website visitors. We do not collect
+                    personally
+                    identifiable information unless you voluntarily choose to provide it. Access to our website does not
+                    require
+                    registration or submission of personal details. We only collect information such as names,
+                    addresses, and email
+                    addresses when you willingly share it—such as through our donation pages—where it is used solely to
+                    confirm your
+                    contribution for tax purposes.
+                </p>
+                <p>
+                    Rest assured, Samskaara does not sell or trade your information with third parties. We will only
+                    share
+                    personally identifiable information if you grant us permission or if required by law.
+                </p>
+                <h4>Secure Credit Card Processing</h4>
+                <p>Samskaara employs industry-standard Secure Sockets Layer (SSL) encryption to ensure the security of
+                    your
+                    transactions and the confidentiality of your personal information. This technology makes it
+                    extremely difficult
+                    for anyone to 19th November 2025, Intercept the credit card details you provide.</p>
+                <p>We never sell or share your credit card information with third parties, except as required by law.
+                    For any
+                    concerns, you may also donate by calling +91-7760776677 or sending checks/money orders to:</p>
+                <p>
+                    If you have any questions about our Privacy Policy, you may contact us at: Samskaara <br>
+                    No 95 , 1 st Main Road, Block 3, <br>
+                    BEMI Layout Stage 4, <br>
+                    Rajarajeshwari Nagara, <br>
+                    Bangalore-560098, Karnataka <br>
+                    E-mail - Samskaara@gmail.com
+                </p>
+                <h4>Security</h4>
+                <p>We are committed to safeguarding your information. To prevent unauthorized access or disclosure, we
+                    have
+                    implemented strict physical, electronic, and managerial security measures.</p>
+                <h4>Donations</h4>
+                <p>
+                    We collect visitor information through our donation form, including contact details (such as name,
+                    email, and
+                    mailing address) and payment information (such as credit card number and expiration date). This data
+                    is used for
+                    billing and sending donation receipts. If any issues arise with processing a donation, we may
+                    contact the donor.
+                    With consent, we may share names and contact details with selected organizations and charities that
+                    may interest
+                    our donors. For larger donations, we provide necessary details to relevant charities and donors for
+                    tax
+                    purposes. However, financial and credit card information is never shared.
+                </p>
+                <h4>Out-put</h4>
+                <p>If you share your postal or email address with us online, you may receive occasional updates about
+                    our programs
+                    and services. If you wish to opt out of future mail or emails, please contact us at
+                    Samskaara@gmail.com or write
+                    to us at the address above, stating your preference. Please note that some mailings are scheduled in
+                    advance, so
+                    it may take up to three months to fully process your request.</p>
+                <h4>Stored preferences</h4>
+                <p>
+                    Visitors should be aware that Samskaara’s website may automatically collect non-personal information
+                    through the
+                    use of browser cookies. These small text files help recognize returning visitors, simplify site
+                    access, and
+                    analyze usage patterns to enhance content. They are not harmful and only assign a unique identifier
+                    to each
+                    visitor. If you prefer to disable cookies, most web browsers allow you to manage your cookie
+                    settings easily.
+                    Samskaara uses this technology solely to collect non-personal data to improve the online experience
+                    for our
+                    visitors.
+                </p>
+                <h4>External Links</h4>
+                <p>This website may contain links to external sites. Unless explicitly stated, Samskaara does not make
+                    any
+                    guarantees regarding their content. Providing a link does not indicate endorsement, sponsorship, or
+                    affiliation
+                    with those sites, their owners, or providers. Using online information, software, or products
+                    carries inherent
+                    risks, and we encourage you to assess these risks before accessing, using, or purchasing anything
+                    online. We
+                    also recommend reviewing the privacy policies of external websites that may collect personal data or
+                    use
+                    cookies. Samskaara is not responsible for the privacy practices of other sites, so please refer to
+                    their privacy
+                    statements for more details.</p>
+                <h4>Update Notice</h4>
+                <p>If we decide to update our privacy policy, we will publish the changes in this statement to keep our
+                    visitors
+                    informed about the data we collect, how we use it, and when it may be disclosed. We will continue
+                    handling
+                    information based on the privacy policy in effect at the time of collection.
+                    However, if we intend to use visitors' personally identifiable information in a way that differs
+                    significantly
+                    from what was stated during collection, we will notify them via email and will not share their
+                    information
+                    without explicit consent. Visitors who have opted out of communications or have deactivated their
+                    accounts will
+                    not be contacted, and their personal information will not be used under the updated policy.</p>
+                <h4>Transfer</h4>
+                <p>While we are committed to protecting visitor privacy, we may be obligated to disclose personal
+                    information as
+                    required by law. This may occur if we have a good-faith belief that such action is necessary to
+                    comply with an
+                    ongoing legal proceeding, a court order, or any legal process served on our website.</p>
+                <h4>Connections</h4>
+                <p>This website may include links to external sites of interest. Please note that once you leave our
+                    site through
+                    these links, we have no control over and are not responsible for the content or privacy practices of
+                    those
+                    websites. We encourage visitors to exercise caution when navigating away and to review the privacy
+                    policies of
+                    any site they visit. This privacy policy applies solely to information collected through our
+                    website.</p>
+                <h4>Interactive Elements</h4>
+                <p>At times, our website may collect information from visitors through interactive features like surveys
+                    or
+                    quizzes. Participation in these activities is entirely optional, allowing visitors to decide whether
+                    to share
+                    their information. Typically, the data requested includes contact details (such as name and email)
+                    and
+                    preferences or interests. Survey responses help us evaluate and improve user experience while
+                    providing relevant
+                    content to participants. Personal information collected will not be shared with third parties.</p>
+                <h4>Suggestions</h4>
+                <p>
+                    If a visitor chooses to use our referral service to share our website with a friend, we request the
+                    friend’s
+                    name and email address. Samskaara will then send a one-time email introducing our organization and
+                    inviting them
+                    to visit the site. This email will include the name of the person making the referral. We store this
+                    information
+                    solely to send the one-time email and to track the effectiveness of our referral program. The friend
+                    may contact
+                    us at Samskaara@gmail.com to request the removal of their information from our database.
+                </p>
+                <p>n accordance with the updated General Data Protection Regulation (GDPR), we have revised our privacy
+                    policies
+                    for all European citizens. Click here to review the updated policies.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-sec py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div>
+                        <div>
+                            <img src="assets/image/logo1.jpeg" alt="logo" class="ft-logo">
+                        </div>
+                        <p class="text-white">Samskaara is dedicated to empowering underprivileged communities through
+                            education,
+                            healthcare, and social welfare programs. Join us in making a difference.</p>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="">
+                        <h3 class="footer-title">Quick Links</h3>
+                        <ul>
+                            <li><a href="#" class="text-white">Home</a></li>
+                            <li><a href="#" class="text-white">About Us</a></li>
+                            <li><a href="#" class="text-white">Our Mission</a></li>
+                            <li><a href="#" class="text-white">Our Impact</a></li>
+                            <li><a href="#" class="text-white">History</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="">
+                        <h3 class="footer-title">Programs</h3>
+                        <ul>
+                            <li><a href="#" class="text-white">Education</a></li>
+                            <li><a href="#" class="text-white">Women Empowerment</a></li>
+                            <li><a href="#" class="text-white">Health & Hygiene</a></li>
+                            <li><a href="#" class="text-white">Skill Development</a></li>
+                            <li><a href="#" class="text-white">Environmental Awarenes</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="">
+                        <h3 class="footer-title">Donation</h3>
+                        <ul>
+                            <li><a href="#" class="text-white">One-Time Donation</a></li>
+                            <li><a href="#" class="text-white">Monthly Giving</a></li>
+                            <li><a href="#" class="text-white">Corporate Sponsorship</a></li>
+                            <li><a href="#" class="text-white">Crowdfunding</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="">
+                        <h3 class="footer-title">Contact</h3>
+                        <ul>
+                            <li><a href="#" class="text-white"><i class="fa-solid fa-phone"></i> 7896321548</a></li>
+                            <li><a href="#" class="text-white"><i class="fa-solid fa-envelope"></i>
+                                    samskaara@gmail.com</a></li>
+                            <li><a href="#" class="text-white"><i class="fa-solid fa-location-dot"></i> Plot No –
+                                    12,(SCR) 2nd Floor
+                                    Kharvel Nagar, Unit – 3, Behind BDA Office, 751001</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Script CDN Link  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- External Script Sheet  -->
+    <script src="assets/script/script.js"></script>
+</body>
+
+</html>

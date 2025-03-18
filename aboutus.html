@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NGO</title>
+
+    <!-- Bootstrap Style CDN Link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+
+    <!-- Fontawesome CDN Links  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+    <!-- External Style Sheet  -->
+    <link rel="stylesheet" href="assets/style/style.css" />
+</head>
+
+<body>
+
+    <!-- Top Navbar  -->
+    <div class="py-2" style="background-color: #0B8B68;">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center gap-3">
+                <span><i class="fa-solid fa-envelope text-white"></i> <a href=""
+                        class="text-white text-decoration-none"> samskaara@gmail.com</a></span>
+                <span><i class="fa-solid fa-phone text-white"></i> <a href="tell:7760776677"
+                        class="text-white text-decoration-none">7760776677</a></span>
+            </div>
+            <ul class="list-unstyled m-0 d-flex align-items-center gap-4 justify-content-center">
+                <li><a href="#"><i class="fa-brands fa-facebook-f text-white"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram text-white"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin-in text-white"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-x-twitter text-white"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-youtube text-white"></i></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Main Navbar  -->
+    <header class="header">
+        <!-- ******************************* def-container  (add this class in nav )-->
+        <nav class="nav container">
+            <div class="nav__data">
+                <a href="index.html" class="nav__logo">
+                    <img src="assets/image/logo1.jpeg" alt="logo">
+                    <!-- <h3>NGO</h3> -->
+                </a>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line nav__toggle-menu"></i>
+                    <i class="ri-close-line nav__toggle-close"></i>
+                </div>
+            </div>
+
+            <!-- Nav Menu  -->
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li>
+                        <a href="index.html" class="nav__link">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="aboutus.html" class="nav__link">About Us</a>
+                    </li>
+
+                    <!-- dropdown 2 -->
+                    <li class="dropdown__item">
+                        <div class="nav__link dropdown__button">
+                            What we do <i class="fa-solid fa-angle-down"></i>
+                        </div>
+
+                        <div class="dropdown__container">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+                                    <!-- <span class="dropdown__title">Teachers</span> -->
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="education.html" class="dropdown__link">Education for All</a>
+                                        </li>
+                                        <li>
+                                            <a href="women.html" class="dropdown__link">Women Empowerment</a>
+                                        </li>
+                                        <li>
+                                            <a href="gurukul.html" class="dropdown__link">Gurukul</a>
+                                        </li>
+                                        <li>
+                                            <a href="spirituality.html" class="dropdown__link">Spirituality</a>
+                                        </li>
+                                        <li>
+                                            <a href="skill-development.html" class="dropdown__link">Skill
+                                                Development</a>
+                                        </li>
+                                        <li>
+                                            <a href="school-development.html" class="dropdown__link">Schools
+                                                Development</a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- dropdown 3 -->
+                    <li class="dropdown__item">
+                        <div class="nav__link dropdown__button">
+                            Get Involved <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                        <div class="dropdown__container">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="volunteer.html" class="dropdown__link">Volunteer</a>
+                                        </li>
+                                        <li>
+                                            <a href="feedback.html" class="dropdown__link">Feedback & suggestion</a>
+                                        </li>
+                                        <li>
+                                            <a href="board-of-trustees.html" class="dropdown__link">Board of
+                                                Trustees</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a href="donation.html" class="nav__link">Donate</a>
+                    </li>
+
+                    <li>
+                        <a href="blog.html" class="nav__link">Blog</a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html" class="nav__link">Contact Us</a>
+                    </li>
+
+                    <li>
+                        <a href="donation-details.html" class="nav__link">
+                            <span class="donate-btn"><i class="fa fa-heart"></i> Donate</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Breadcrumb Section  -->
+    <section class="breadcrumb-sec">
+        <div class="d-flex justify-content-center align-items-center text-center h-100">
+            <div class="text-center">
+                <h1 class="text-white position-relative z-2">About Us</h1>
+                <div
+                    class="text-white position-relative z-2 d-flex align-items-center justify-content-center gap-3 mt-3">
+                    <a href="index.html" class="text-white text-decoration-none">Home</a>
+                    <i class="fa-solid fa-angle-left text-white"></i>
+                    <span class="text-yellow">Blog</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about samskaara foundation  -->
+    <section class="aboutSamskaara-sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div>
+                        <h1>About Samskaara Foundation</h1>
+                        <p>Samskaara Foundation is a dedicated non-profit organization committed to transforming lives
+                            through education, empowerment, and social welfare initiatives. Established with a vision to
+                            create a better and more inclusive society, we strive to uplift underprivileged communities
+                            by providing access to quality education, healthcare, and skill development programs.</p>
+                        <p>Our mission is to bridge societal gaps and empower individuals, especially children and
+                            women, by equipping them with the necessary resources to build a brighter future. We believe
+                            that education is the foundation of progress, healthcare is the backbone of well-being, and
+                            empowerment is the key to self-sufficiency. At Samskaara Foundation, we work relentlessly to
+                            foster hope, create opportunities, and drive positive social change.</p>
+                        <div>
+                            <h4>Our Core Objectives</h4>
+                            <div class="d-flex justify-content-between">
+                                <div class="row gy-4">
+                                    <div class="col-md-4">
+                                        <span><i class="fa-solid fa-circle-dot text-secondary"></i> <a href="#"
+                                                class="text-dark text-decoration-none">Quality Education for
+                                                All</a></span>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <span><i class="fa-solid fa-circle-dot text-secondary"></i> <a href="#"
+                                                class="text-dark text-decoration-none">Women Empowerment</a></span>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <span><i class="fa-solid fa-circle-dot text-secondary"></i> <a href="#"
+                                                class="text-dark text-decoration-none">Healthcare &
+                                                Well-being</a></span>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <span><i class="fa-solid fa-circle-dot text-secondary"></i> <a href="#"
+                                                class="text-dark text-decoration-none">Skill Development &
+                                                Employment</a></span>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <span><i class="fa-solid fa-circle-dot text-secondary"></i> <a href="#"
+                                                class="text-dark text-decoration-none">Social Welfare
+                                                Initiatives</a></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mt-5">
+                                <a href="education.html" class="green-btn">Explore more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="aboutSamskaara-img">
+                        <img src="assets/image/resource/hi.jpeg" class="w-100 shadow rounded" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="">
+                        <img src="assets/image/resource/cofounder.jpeg" class="w-100 shadow rounded" alt="">
+                    </div>
+                </div>
+
+                <div class="col-md-8">
+                    <div>
+                        <h1>About C.R. Ashwini</h1>
+                        <p>C.R. Ashwini is a dedicated social activist committed to bringing positive change to society.
+                            With a deep passion for community service, Ashwini has been actively involved in various
+                            initiatives focused on education, environmental conservation, and social welfare.</p>
+                        <p>Driven by a vision of empowering underprivileged communities, Ashwini has played a crucial
+                            role in establishing and supporting NGOs that work toward sustainable development and social
+                            upliftment. Through relentless efforts, Ashwini continues to advocate for education for all,
+                            environmental sustainability, and equal opportunities, making a meaningful impact in the
+                            lives of many.</p>
+                        <p>With a strong belief in the power of collective action, Ashwini collaborates with volunteers,
+                            organizations, and local communities to drive initiatives that promote awareness,
+                            inclusivity, and long-term change.</p>
+                        <div class="mt-5">
+                            <a href="contact.html" class="green-btn">Contact us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="aboutSamskaara-sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div>
+                        <h1>Akshatha gowda</h1>
+                        <p>Akshatha Gowda serves as a dedicated trustee of Samskaara Foundation, bringing her unwavering
+                            passion for environmental awareness and sustainable living to the forefront. With a strong
+                            belief that education and community action are the cornerstones of lasting change, she plays
+                            a key role in shaping the foundation’s vision and initiatives. Her leadership and strategic
+                            insight help drive impactful projects that inspire individuals to embrace eco-conscious
+                            practices and protect our planet.</p>
+                        <p>Beyond her administrative role, Akshatha actively engages with local communities, advocating
+                            for environmental education, waste management awareness, and sustainable development. She
+                            believes that empowering people — especially the younger generation — with knowledge and
+                            practical solutions can create a ripple effect, fostering a culture of responsibility and
+                            respect towards nature. Her hands-on approach ensures that the foundation’s efforts remain
+                            grounded in real-world impact and meaningful transformation.</p>
+                        <p>Akshatha’s journey with Samskaara Foundation is driven by her belief in the power of
+                            collective action. She envisions communities uniting in sustainable harmony, merging
+                            traditional wisdom with modern practices.</p>
+                        <div class="mt-5">
+                            <a href="contact.html" class="green-btn">Contact us</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="">
+                        <img src="assets/image/resource/cofounder1.jpg" class="w-100 shadow rounded" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section  -->
+    <section class="about-sec" style="padding: 80px 0;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="about-multi-image">
+                        <div class="about-img1">
+                            <img class="w-100" src="assets/image/resource/about.jpg" alt="about">
+                        </div>
+                        <div class="about-img2">
+                            <img class="w-100" src="assets/image/resource/blog5.jpeg" alt="about">
+                        </div>
+                        <div class="since">
+                            <span class="span1">10+</span>
+                            <span class="span2">Years</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex">
+                    <div class="m-auto ms-3">
+                        <h2>Who We Are</h2>
+                        <p>At Samskaara NGO, we are dedicated to creating a positive impact in society by empowering
+                            underprivileged communities through education, healthcare, and social welfare initiatives.
+                            Our mission is to uplift those in need by providing access to essential resources, skill
+                            development programs, and support systems that foster long-term growth and self-reliance.
+                        </p>
+                        <p>Driven by a passionate team of changemakers, we believe in the power of collective effort to
+                            bring meaningful transformation. Through our various initiatives, we work towards ensuring a
+                            brighter future for children, women, and marginalized communities, helping them break free
+                            from the cycle of poverty and inequality.</p>
+                        <p>With integrity, compassion, and commitment at our core, Samskaara NGO stands as a beacon of
+                            hope, striving to create a more just and equitable society.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission Vosion Section  -->
+    <section class="missionVision-sec" id="ourMission">
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-md-4">
+                    <div class="mission-card mission">
+                        <div class="icon-circle">
+                            <img src="assets/image/icons/icon3.png" alt="">
+                        </div>
+                        <h4 class="mt-5 text-uppercase">OUR MISSION</h4>
+                        <p>We are committed to transforming lives through education, healthcare, and skill development.
+                            By empowering underprivileged communities, we aim to create sustainable growth. Our mission
+                            is to bridge social gaps and foster equal opportunities. Together, we strive for a brighter
+                            and more inclusive future.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="mission-card vision">
+                        <div class="icon-circle">
+                            <img src="assets/image/icons/icon4.png" alt="">
+                        </div>
+                        <h4 class="mt-5 text-uppercase">Our Vision</h4>
+                        <p>We envision a world where everyone has access to education, healthcare, and dignity. Our goal
+                            is to build a self-reliant and empowered society for future generations. By fostering
+                            inclusivity and equality, we create pathways for sustainable change. Through collective
+                            efforts, we inspire hope and opportunity for all.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="mission-card values">
+                        <div class="icon-circle">
+                            <img src="assets/image/icons/icon5.png" alt="">
+                        </div>
+                        <h4 class="mt-5 text-uppercase">Our values</h4>
+                        <p>Compassion, integrity, and inclusivity guide our mission to uplift lives. We believe in
+                            transparency, fairness, and commitment to social welfare. Empowering individuals with
+                            knowledge and skills leads to long-term impact. Through kindness and action, we create a
+                            stronger and united society.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sendMessage-sec py-5">
+        <div class="container">
+            <div>
+                <h1>Send a message</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-7">
+                    <form action="" class="sendMessage-form">
+                        <div class="row gy-2">
+                            <div class="col-md-6">
+                                <div>
+                                    <label for="first-name" class="form-label fw-bold">First name</label>
+                                    <input type="text" class="form-control" id="first-name"
+                                        placeholder="Enter Your First Name">
+                                    <div id="err-first-name" class="form-text text-danger d-none">Please enter your
+                                        correct name</div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div>
+                                    <label for="last-name" class="form-label fw-bold">Last name</label>
+                                    <input type="text" class="form-control" id="last-name"
+                                        placeholder="Enter Your Last Name">
+                                    <div id="err-last-name" class="form-text text-danger d-none">Please enter your
+                                        correct name</div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div>
+                                    <label for="last-name" class="form-label fw-bold">Email</label>
+                                    <input type="text" class="form-control" id="last-name"
+                                        placeholder="Enter Your Email">
+                                    <div id="err-last-name" class="form-text text-danger d-none">Please enter email
+                                        address</div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div>
+                                    <label for="last-name" class="form-label fw-bold">Phone</label>
+                                    <input type="text" class="form-control" id="last-name"
+                                        placeholder="Enter Your Phone Number">
+                                    <div id="err-last-name" class="form-text text-danger d-none">Please enter phone
+                                        number</div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <label for="last-name" class="form-label fw-bold">Message</label>
+                                <textarea name="" id="msg" class="form-control" rows="4"
+                                    placeholder="Enter Message"></textarea>
+                                <div id="err-last-name" class="form-text text-danger d-none">This field is required.
+                                </div>
+                            </div>
+                            <div class="col-md-12 mt-4">
+                                <div>
+                                    <button type="submit" class="green-btn">Send Message</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-5">
+                    <div class="px-4 py-5" style="background-color: #f2f7f2;">
+                        <h2 class="mt-4">Address</h2>
+                        <p class="mt-2">We’re here to assist you! Whether you have a question, need support, or want to collaborate, feel free to reach out. Our team is always ready to help.</p>
+                        <p class="mt-2"><strong>Location : </strong> No 95, 1 st Main Road, Block 3, BEML Layout Stage 4, Rajarajeshwari Nagara, Bangalore-560098, Karnataka</p>
+                        <p class="mt-2"><strong>Phone : </strong> +91-7760776677</p>
+                        <p class="mt-2"><strong>Email : </strong> info@example.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-sec py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div>
+                        <div>
+                            <img src="assets/image/logo1.jpeg" alt="logo" class="ft-logo">
+                        </div>
+                        <p class="text-white">Samskaara is dedicated to empowering underprivileged communities through
+                            education,
+                            healthcare, and social welfare programs. Join us in making a difference.</p>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="">
+                        <h3 class="footer-title">Quick Links</h3>
+                        <ul>
+                            <li><a href="aboutus.html" class="text-white">About Us</a></li>
+                            <li><a href="aboutus.html" class="text-white">Our Mission</a></li>
+                            <li><a href="donation-faqs.html" class="text-white">donation faqs</a></li>
+                            <li><a href="termcondition.html" class="text-white">Terms & Conditions</a></li>
+                            <li><a href="privacy-policy.html" class="text-white">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="">
+                        <h3 class="footer-title">Programs</h3>
+                        <ul>
+                            <li><a href="education.html" class="text-white">Education for All</a></li>
+                            <li><a href="women.html" class="text-white">Women Empowerment</a></li>
+                            <li><a href="skill-development.html" class="text-white">Skill Development</a></li>
+                            <li><a href="gurukul.html" class="text-white">Gurukul</a></li>
+                            <li><a href="school-development.html" class="text-white">Schools Development</a></li>
+                            <li><a href="spirituality.html" class="text-white">Spirituality</a></li>
+                            <li><a href="disabled-people.html" class="text-white">Disabled people</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="">
+                        <h3 class="footer-title">Donation</h3>
+                        <ul>
+                            <li><a href="donation.html" class="text-white">One-Time Donation</a></li>
+                            <li><a href="donation.html" class="text-white">Monthly Giving</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="">
+                        <h3 class="footer-title">Contact</h3>
+                        <ul>
+                            <li><a href="#" class="text-white"><i class="fa-solid fa-phone"></i> 7760776677</a></li>
+                            <li><a href="#" class="text-white"><i class="fa-solid fa-envelope"></i>
+                                    samskaara@gmail.com</a></li>
+                            <li><a href="#" class="text-white"><i class="fa-solid fa-location-dot"></i> No 95, 1 st Main
+                                    Road, Block 3, BEML Layout Stage 4, Rajarajeshwari Nagara, Bangalore-560098,
+                                    Karnataka</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Script CDN Link  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- External Script Sheet  -->
+    <script src="assets/script/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NGO</title>
+
+    <!-- Bootstrap Style CDN Link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+
+    <!-- Fontawesome CDN Links  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+    <!-- External Style Sheet  -->
+    <link rel="stylesheet" href="/assets/style/style.css" />
+</head>
+
+<body>
+    <!-- Top Navbar  -->
+    <div class="py-2" style="background-color: #0B8B68;">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center gap-3">
+                <span><i class="fa-solid fa-envelope text-white"></i> <a href=""
+                        class="text-white text-decoration-none"> samskaara@gmail.com</a></span>
+                <span><i class="fa-solid fa-phone text-white"></i> <a href="tell:7760776677"
+                        class="text-white text-decoration-none">7760776677</a></span>
+            </div>
+            <ul class="list-unstyled m-0 d-flex align-items-center gap-4 justify-content-center">
+                <li><a href="#"><i class="fa-brands fa-facebook-f text-white"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram text-white"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin-in text-white"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-x-twitter text-white"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-youtube text-white"></i></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Main Navbar  -->
+    <header class="header">
+        <!-- ******************************* def-container  (add this class in nav )-->
+        <nav class="nav container">
+            <div class="nav__data">
+                <a href="/index.html" class="nav__logo">
+                    <img src="/assets/image/logo1.jpeg" alt="logo">
+                    <!-- <h3>NGO</h3> -->
+                </a>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line nav__toggle-menu"></i>
+                    <i class="ri-close-line nav__toggle-close"></i>
+                </div>
+            </div>
+
+            <!-- Nav Menu  -->
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li>
+                        <a href="/index.html" class="nav__link">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="/aboutus.html" class="nav__link">About Us</a>
+                    </li>
+
+                    <!-- dropdown 2 -->
+                    <li class="dropdown__item">
+                        <div class="nav__link dropdown__button">
+                            What we do <i class="fa-solid fa-angle-down"></i>
+                        </div>
+
+                        <div class="dropdown__container">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+                                    <!-- <span class="dropdown__title">Teachers</span> -->
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="/education.html" class="dropdown__link">Education for All</a>
+                                        </li>
+                                        <li>
+                                            <a href="/women.html" class="dropdown__link">Women Empowerment</a>
+                                        </li>
+                                        <li>
+                                            <a href="/gurukul.html" class="dropdown__link">Gurukul</a>
+                                        </li>
+                                        <li>
+                                            <a href="/spirituality.html" class="dropdown__link">Spirituality</a>
+                                        </li>
+                                        <li>
+                                            <a href="/skill-development.html" class="dropdown__link">Skill
+                                                Development</a>
+                                        </li>
+                                        <li>
+                                            <a href="/school-development.html" class="dropdown__link">Schools
+                                                Development</a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- dropdown 3 -->
+                    <li class="dropdown__item">
+                        <div class="nav__link dropdown__button">
+                            Get Involved <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                        <div class="dropdown__container">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="/volunteer.html" class="dropdown__link">Volunteer</a>
+                                        </li>
+                                        <li>
+                                            <a href="/feedback.html" class="dropdown__link">Feedback & suggestion</a>
+                                        </li>
+                                        <li>
+                                            <a href="/board-of-trustees.html" class="dropdown__link">Board of
+                                                Trustees</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a href="/donation.html" class="nav__link">Donate</a>
+                    </li>
+
+                    <li>
+                        <a href="/blog.html" class="nav__link">Blog</a>
+                    </li>
+
+                    <li>
+                        <a href="/contact.html" class="nav__link">Contact Us</a>
+                    </li>
+
+                    <li>
+                        <a href="/donation-details.html" class="nav__link">
+                            <span class="donate-btn"><i class="fa fa-heart"></i> Donate</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Breadcrumb Section  -->
+    <section class="breadcrumb-sec">
+        <div class="d-flex justify-content-center align-items-center text-center h-100">
+            <div class="text-center">
+                <h1 class="text-white position-relative z-2">Health & Wellness Camp – Free Checkups</h1>
+                <div
+                    class="text-white position-relative z-2 d-flex align-items-center justify-content-center gap-3 mt-3">
+                    <a href="/index.html" class="text-white text-decoration-none">Home</a>
+                    <i class="fa-solid fa-angle-left text-white"></i>
+                    <span class="text-yellow">Latest Updates</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5" style="background-color: #F2F7F2;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div>
+                        <img src="/assets/image/resource/latest3.jpg" alt="international Women’s day"
+                            class="w-100 rounded">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div>
+                        <h2>Women’s Day</h2>
+                        <p>Every year on March 8th, we come together to celebrate International Women’s Day, a day
+                            dedicated to recognizing the achievements of women across all fields and advocating for
+                            gender equality. At Samskaara Foundation, we believe that empowering women through
+                            education, skill development, and community support is key to building a brighter future.
+                        </p>
+                        <h5>Our Mission</h5>
+                        <p>This year's campaign focuses on enhancing opportunities for women through career mentorship
+                            programs, financial literacy workshops, and leadership training. We are committed to
+                            ensuring that every women, regardless of the background, has access to the resources and
+                            support needed to achieve her dreams.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-3">
+                <h5>Key Highlights of the Campaign</h5>
+                <ul>
+                    <li><strong>Skill Development Workshops:</strong> Hands-on training sessions to help women develop
+                        practical skills for employment.</li>
+                    <li><strong>Educational Support:</strong> Scholarships and learning resources for women who wish to
+                        pursue further studies.</li>
+                    <li><strong>Women Entrepreneurs Program:</strong> Guidance and financial aid for women who want to
+                        start their own businesses</li>
+                    <li><strong>Health & Well-being Sessions:</strong>Awareness programs on physical and mental health,
+                        including self-care tips.</li>
+                    <li><strong>Community Awareness Drives:</strong> Public discussions and campaigns to highlight the
+                        importance of gender equality.</li>
+                </ul>
+
+                <h4>Why It Matters</h4>
+                <p>Women play an essential role in shaping society, and it is crucial to provide them with equal
+                    opportunities. Empowered women empower communities. By supporting this campaign, you contribute to a
+                    more inclusive and progressive society where every women can thrive.</p>
+
+                <h4 class="mt-4">How You Can Participate</h4>
+                <ul>
+                    <li>Attend our empowerment workshops and training sessions.</li>
+                    <li>Share stories of inspiring women on social media using #SamskaaraWomen.</li>
+                    <li>Volunteer to mentor or support women in your community.</li>
+                    <li>Donate to fund education and skill programs for underprivileged women.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter-section">
+        <div class="container d-flex">
+            <div class="text-center m-auto" style="max-width: 900px;">
+                <h4>Join Us in Making a Difference!</h4>
+                <p>We invite individuals, organizations, and businesses to collaborate with us in making this campaign a
+                    success.
+                    Together, we can create a world where women have equal opportunities to excel and lead. </p>
+                <p class="mb-4">Let’s make every day Women’s Day!</p>
+                <a href="/contact.html" class="yellow-btn">Contact us</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-sec py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div>
+                        <div>
+                            <img src="/assets/image/logo1.jpeg" alt="logo" class="ft-logo">
+                        </div>
+                        <p class="text-white">Samskaara is dedicated to empowering underprivileged communities through
+                            education,
+                            healthcare, and social welfare programs. Join us in making a difference.</p>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="">
+                        <h3 class="footer-title">Quick Links</h3>
+                        <ul>
+                            <li><a href="/aboutus.html" class="text-white">About Us</a></li>
+                            <li><a href="/aboutus.html" class="text-white">Our Mission</a></li>
+                            <li><a href="/donation-faqs.html" class="text-white">donation faqs</a></li>
+                            <li><a href="/termcondition.html" class="text-white">Terms & Conditions</a></li>
+                            <li><a href="/privacy-policy.html" class="text-white">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="">
+                        <h3 class="footer-title">Programs</h3>
+                        <ul>
+                            <li><a href="/education.html" class="text-white">Education for All</a></li>
+                            <li><a href="/women.html" class="text-white">Women Empowerment</a></li>
+                            <li><a href="/skill-development.html" class="text-white">Skill Development</a></li>
+                            <li><a href="/gurukul.html" class="text-white">Gurukul</a></li>
+                            <li><a href="/school-development.html" class="text-white">Schools Development</a></li>
+                            <li><a href="/spirituality.html" class="text-white">Spirituality</a></li>
+                            <li><a href="/disabled-people.html" class="text-white">Disabled people</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="">
+                        <h3 class="footer-title">Donation</h3>
+                        <ul>
+                            <li><a href="/donation.html" class="text-white">One-Time Donation</a></li>
+                            <li><a href="/donation.html" class="text-white">Monthly Giving</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="">
+                        <h3 class="footer-title">Contact</h3>
+                        <ul>
+                            <li><a href="#" class="text-white"><i class="fa-solid fa-phone"></i> 7760776677</a></li>
+                            <li><a href="#" class="text-white"><i class="fa-solid fa-envelope"></i>
+                                    samskaara@gmail.com</a></li>
+                            <li><a href="#" class="text-white"><i class="fa-solid fa-location-dot"></i> No 95, 1 st Main Road, Block 3, BEML Layout Stage 4, Rajarajeshwari Nagara, Bangalore-560098, Karnataka</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Script CDN Link  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- External Script Sheet  -->
+    <script src="/assets/script/script.js"></script>
+</body>
+
+</html>

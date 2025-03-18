@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NGO</title>
+
+    <!-- Bootstrap Style CDN Link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+
+    <!-- Fontawesome CDN Links  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+    <!-- External Style Sheet  -->
+    <link rel="stylesheet" href="assets/style/style.css" />
+</head>
+
+<body>
+    <!-- Top Navbar  -->
+    <div class="py-2" style="background-color: #0B8B68;">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center gap-3">
+                <span><i class="fa-solid fa-envelope text-white"></i> <a href=""
+                        class="text-white text-decoration-none"> samskaara@gmail.com</a></span>
+                <span><i class="fa-solid fa-phone text-white"></i> <a href="tell:7760776677"
+                        class="text-white text-decoration-none">7760776677</a></span>
+            </div>
+            <ul class="list-unstyled m-0 d-flex align-items-center gap-4 justify-content-center">
+                <li><a href="#"><i class="fa-brands fa-facebook-f text-white"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram text-white"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin-in text-white"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-x-twitter text-white"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-youtube text-white"></i></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Main Navbar  -->
+    <header class="header">
+        <!-- ******************************* def-container  (add this class in nav )-->
+        <nav class="nav container">
+            <div class="nav__data">
+                <a href="index.html" class="nav__logo">
+                    <img src="assets/image/logo1.jpeg" alt="logo">
+                    <!-- <h3>NGO</h3> -->
+                </a>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line nav__toggle-menu"></i>
+                    <i class="ri-close-line nav__toggle-close"></i>
+                </div>
+            </div>
+
+            <!-- Nav Menu  -->
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li>
+                        <a href="index.html" class="nav__link">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="aboutus.html" class="nav__link">About Us</a>
+                    </li>
+
+                    <!-- dropdown 2 -->
+                    <li class="dropdown__item">
+                        <div class="nav__link dropdown__button">
+                            What we do <i class="fa-solid fa-angle-down"></i>
+                        </div>
+
+                        <div class="dropdown__container">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+                                    <!-- <span class="dropdown__title">Teachers</span> -->
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="education.html" class="dropdown__link">Education for All</a>
+                                        </li>
+                                        <li>
+                                            <a href="women.html" class="dropdown__link">Women Empowerment</a>
+                                        </li>
+                                        <li>
+                                            <a href="gurukul.html" class="dropdown__link">Gurukul</a>
+                                        </li>
+                                        <li>
+                                            <a href="spirituality.html" class="dropdown__link">Spirituality</a>
+                                        </li>
+                                        <li>
+                                            <a href="skill-development.html" class="dropdown__link">Skill
+                                                Development</a>
+                                        </li>
+                                        <li>
+                                            <a href="school-development.html" class="dropdown__link">Schools
+                                                Development</a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- dropdown 3 -->
+                    <li class="dropdown__item">
+                        <div class="nav__link dropdown__button">
+                            Get Involved <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                        <div class="dropdown__container">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="volunteer.html" class="dropdown__link">Volunteer</a>
+                                        </li>
+                                        <li>
+                                            <a href="feedback.html" class="dropdown__link">Feedback & suggestion</a>
+                                        </li>
+                                        <li>
+                                            <a href="board-of-trustees.html" class="dropdown__link">Board of
+                                                Trustees</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a href="donation.html" class="nav__link">Donate</a>
+                    </li>
+
+                    <li>
+                        <a href="blog.html" class="nav__link">Blog</a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html" class="nav__link">Contact Us</a>
+                    </li>
+
+                    <li>
+                        <a href="donation-details.html" class="nav__link">
+                            <span class="donate-btn"><i class="fa fa-heart"></i> Donate</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="term-condition py-5" style="background-color: aliceblue;">
+        <div class="container">
+            <div>
+                <h1 style="border-bottom: 5px solid green; display: inline-block; padding-bottom: 2px;">
+                    Terms and Conditions
+                </h1>
+                <p>The Samskaara values your privacy and treats all financial details related to your transactions
+                    with the utmost
+                    confidentiality. Additionally, we do not share the email addresses or phone numbers of our
+                    donors or supporters
+                    with any third party.</p>
+                <p>
+                    Samskaara greatly appreciates all contributions that support our mission. To safeguard the
+                    privacy
+                    of our donors and their special relationship with us, we adhere to the following policies.
+                </p>
+                <ul>
+                    <li>
+                        We may collect personal information online, including name, address, phone number, email
+                        address, and payment
+                        details, solely for the purpose of processing donations to Samskaara.
+                    </li>
+                    <li>
+                        We do not share, sell, or trade donors' personal information with any third-party
+                        organizations.
+                    </li>
+                    <li>
+                        Donors have the option to remain anonymous if they prefer not to be publicly recognized.
+                    </li>
+                    <li>
+                        Donors can request at any time to opt out of receiving fundraising solicitations or other
+                        communications from
+                        us.
+                    </li>
+                    <li>
+                        Donors may also choose to opt out of specific mailings, such as newsletters or event
+                        invitations.
+                    </li>
+                    <li>
+                        We do not track, collect, or distribute personal information from visitors who browse our
+                        website.
+                    </li>
+                    <li>
+                        All personal data collected through our website is encrypted using advanced security
+                        technologies to ensure
+                        maximum protection.
+                    </li>
+                    <li>
+                        Our database and hosting servers adhere to industry-standard security measures, including
+                        secure logins,
+                        encryption, firewall protection, and intrusion detection systems to prevent unauthorized
+                        access.
+                    </li>
+                </ul>
+                <h4>To ensure that philanthropy earns the trust and respect of the public, and to provide donors and
+                    prospective
+                    donors with full confidence in the non-profit organizations and causes they choose to support,
+                    we commit to the
+                    following:</h4>
+                <ul>
+                    <li>
+                        To be informed about the organization's mission, how it intends to use donated resources,
+                        and its ability to
+                        effectively utilize donations for their intended purposes.
+                    </li>
+                    <li>
+                        Donations will be used to support the organization’s relief and development programs. Any
+                        excess funds from a
+                        specific initiative will be redirected to other impactful programs as needed.
+                    </li>
+                    <li>
+                        To be informed about the identity of the organization’s governing board members and to
+                        expect them to exercise
+                        responsible and ethical decision-making.
+                    </li>
+                    <li>
+                        To have access to the organization’s most recent financial statements for transparency and
+                        accountability.
+                    </li>
+                    <li>
+                        To receive appropriate acknowledgment and recognition for their contributions.
+                    </li>
+                    <li>
+                        To be assured that information about their donations is handled with respect and
+                        confidentiality in accordance
+                        with applicable laws.
+                    </li>
+                    <li>
+                        To expect professionalism in all interactions with individuals representing the
+                        organization.
+                    </li>
+                    <li>
+                        To be informed whether those seeking donations are volunteers, employees, or hired
+                        representatives of the
+                        organization.
+                    </li>
+                    <li>
+                        To have the option to remove their names from mailing lists that the organization may use
+                        for outreach purposes.
+                    </li>
+                    <li>
+                        To be assured that their support is used in a responsible and ethical manner, aligned with
+                        the organization’s
+                        mission and goals.
+                    </li>
+                    <li>
+                        To feel confident that the organization adheres to the highest standards of integrity and
+                        efficiency in handling
+                        donations.
+                    </li>
+                    <li>
+                        To have the right to ask questions when making a donation and receive prompt, truthful, and
+                        transparent
+                        responses.
+                    </li>
+                </ul>
+                <h4>Policy on Donation Refunds</h4>
+                <p>Samskaara follows a transparent and reliable refund policy to ensure our donors feel valued in
+                    their association
+                    with us. We take great care in processing donations as per the mandates provided by donors, both
+                    online and
+                    offline. However, in the unlikely event of an erroneous deduction or if a donor wishes to cancel
+                    their donation,
+                    we will address the request within 7 working days of receiving the complaint. The refund
+                    timeline will depend on
+                    the payment method used during the transaction. To process the refund, we require proof of the
+                    donation deduction
+                    and a written request from the donor within two days of the donation.</p>
+                <ul>
+                    <li>
+                        If a donation receipt has already been issued, the donor must return the original receipt to
+                        our official
+                        address to process the refund.
+                    </li>
+                    <li>
+                        If a tax exemption certificate has already been issued, the donation refund will not be
+                        possible.
+                    </li>
+                    <li>
+                        Refund requests will be reviewed on a case-by-case basis, and the final decision will be at
+                        the discretion of
+                        the organization.
+                    </li>
+                    <li>
+                        All refunds will be processed via the original payment method used for the donation, and
+                        processing times may
+                        vary depending on the payment provider.
+                    </li>
+                </ul>
+                <p>You can reach out to us for refund requests through the following channels:</p>
+                <p>*Refund processing for international donations may take additional working days.</p>
+                <h4>Information We Collect</h4>
+                <p>Donor data may be used for the following purposes:</p>
+                <ul>
+                    <li>
+                        Issuing receipts and expressing gratitude to donors for their contributions.
+                    </li>
+                    <li>
+                        Notifying donors about upcoming fundraising events and organizational activities.
+                    </li>
+                    <li>
+                        Conducting internal research and analytics for improvement.
+                    </li>
+                    <li>
+                        Maintaining accurate records for operational efficiency.
+                    </li>
+                    <li>
+                        Complying with legal reporting requirements to government agencies.
+                    </li>
+                    <li>
+                        Gathering insights through surveys, metrics, and analytical assessments.
+                    </li>
+                    <li>
+                        Supporting other activities related to fundraising and donor engagement.
+                    </li>
+                </ul>
+                <p>Anonymous donor information may be utilized for promotional and fundraising purposes.
+                    Donor-provided comments may
+                    be publicly shared and included in promotional materials. We may enhance donor data with
+                    additional available
+                    information to strengthen our fundraising efforts. Donors may have the option to publicly
+                    associate their name
+                    with their donation unless they request anonymity during the donation process.</p>
+                <p>We utilize data collected from payment processors and service providers solely for the purposes
+                    outlined in this
+                    policy.</p>
+                <h4>Contact us</h4>
+                <p>If you have questions about this Donor Privacy Policy or requests about the status and
+                    correctness of your donor
+                    data, please contact</p>
+                <p class="mt-3">
+                    Samskaara Foundation <br>
+                    No 95 , 1 st Main Road, Block 3, <br>
+                    BEMI Layout Stage 4, <br>
+                    Rajarajeshwari Nagara, <br>
+                    Bangalore-560098, Karnataka <br>
+                    ph -+91-7760776677 <br>
+                    E-mail - Samskaara@gmail.com
+                </p>
+                <h4 class="mt-2">Security</h4>
+                <p>We are dedicated to safeguarding donor personal information from unauthorized access,
+                    modification, disclosure,
+                    or destruction. To ensure security, we implement various protective measures, including securing
+                    web access to
+                    sensitive data and addressing potential vulnerabilities in our systems and databases.</p>
+                <h4 class="mt-2">Other Disclosures</h4>
+                <p>
+                    We may disclose information as required by law, to protect our rights, privacy, safety,
+                    property, donors, or
+                    users, and when necessary to enforce our terms of service.
+                </p>
+                <h4 class="mt-2">Updates</h4>
+                <p>
+                    We may update the Donor Privacy Policy periodically, and any changes will be reflected on this
+                    page. Significant
+                    updates may also be communicated through our usual channels of engagement with our donors and
+                    community. We
+                    encourage you to review this page regularly for any updates to the policy.
+                </p>
+                <h4 class="mt-2">Data Retention</h4>
+                <p>
+                    We strive to retain donor-related information only for as long as necessary to fulfill the
+                    purposes outlined in
+                    this policy, unless a longer retention period is mandated by law or regulations. For instance,
+                    tax laws in India
+                    may require us to maintain donor contact details and contribution records for compliance
+                    purposes.
+                </p>
+                <h4 class="mt-2">
+                    Rights
+                </h4>
+                <p>
+                    You have specific rights regarding the information we collect about you. Upon request, we will
+                    provide details of
+                    the information we hold and correct any inaccuracies. Additionally, we will make reasonable
+                    efforts to delete your
+                    information upon request, unless we are legally required to retain it.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-sec py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div>
+                        <div>
+                            <img src="assets/image/logo1.jpeg" alt="logo" class="ft-logo">
+                        </div>
+                        <p class="text-white">Samskaara is dedicated to empowering underprivileged communities through
+                            education,
+                            healthcare, and social welfare programs. Join us in making a difference.</p>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="">
+                        <h3 class="footer-title">Quick Links</h3>
+                        <ul>
+                            <li><a href="#" class="text-white">Home</a></li>
+                            <li><a href="#" class="text-white">About Us</a></li>
+                            <li><a href="#" class="text-white">Our Mission</a></li>
+                            <li><a href="#" class="text-white">Our Impact</a></li>
+                            <li><a href="#" class="text-white">History</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="">
+                        <h3 class="footer-title">Programs</h3>
+                        <ul>
+                            <li><a href="#" class="text-white">Education</a></li>
+                            <li><a href="#" class="text-white">Women Empowerment</a></li>
+                            <li><a href="#" class="text-white">Health & Hygiene</a></li>
+                            <li><a href="#" class="text-white">Skill Development</a></li>
+                            <li><a href="#" class="text-white">Environmental Awarenes</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="">
+                        <h3 class="footer-title">Donation</h3>
+                        <ul>
+                            <li><a href="#" class="text-white">One-Time Donation</a></li>
+                            <li><a href="#" class="text-white">Monthly Giving</a></li>
+                            <li><a href="#" class="text-white">Corporate Sponsorship</a></li>
+                            <li><a href="#" class="text-white">Crowdfunding</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="">
+                        <h3 class="footer-title">Contact</h3>
+                        <ul>
+                            <li><a href="#" class="text-white"><i class="fa-solid fa-phone"></i> 7896321548</a></li>
+                            <li><a href="#" class="text-white"><i class="fa-solid fa-envelope"></i>
+                                    samskaara@gmail.com</a></li>
+                            <li><a href="#" class="text-white"><i class="fa-solid fa-location-dot"></i> Plot No –
+                                    12,(SCR) 2nd Floor
+                                    Kharvel Nagar, Unit – 3, Behind BDA Office, 751001</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Script CDN Link  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- External Script Sheet  -->
+    <script src="assets/script/script.js"></script>
+</body>
+
+</html>

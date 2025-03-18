@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NGO</title>
+
+    <!-- Bootstrap Style CDN Link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+
+    <!-- Fontawesome CDN Links  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+    <!-- External Style Sheet  -->
+    <link rel="stylesheet" href="assets/style/style.css" />
+</head>
+
+<body>
+    <!-- Top Navbar  -->
+    <div class="py-2" style="background-color: #0B8B68;">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center gap-3">
+                <span><i class="fa-solid fa-envelope text-white"></i> <a href=""
+                        class="text-white text-decoration-none"> samskaara@gmail.com</a></span>
+                <span><i class="fa-solid fa-phone text-white"></i> <a href="tell:7760776677"
+                        class="text-white text-decoration-none">7760776677</a></span>
+            </div>
+            <ul class="list-unstyled m-0 d-flex align-items-center gap-4 justify-content-center">
+                <li><a href="#"><i class="fa-brands fa-facebook-f text-white"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram text-white"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin-in text-white"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-x-twitter text-white"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-youtube text-white"></i></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Main Navbar  -->
+    <header class="header">
+        <!-- ******************************* def-container  (add this class in nav )-->
+        <nav class="nav container">
+            <div class="nav__data">
+                <a href="index.html" class="nav__logo">
+                    <img src="assets/image/logo1.jpeg" alt="logo">
+                    <!-- <h3>NGO</h3> -->
+                </a>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line nav__toggle-menu"></i>
+                    <i class="ri-close-line nav__toggle-close"></i>
+                </div>
+            </div>
+
+            <!-- Nav Menu  -->
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li>
+                        <a href="index.html" class="nav__link">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="aboutus.html" class="nav__link">About Us</a>
+                    </li>
+
+                    <!-- dropdown 2 -->
+                    <li class="dropdown__item">
+                        <div class="nav__link dropdown__button">
+                            What we do <i class="fa-solid fa-angle-down"></i>
+                        </div>
+
+                        <div class="dropdown__container">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+                                    <!-- <span class="dropdown__title">Teachers</span> -->
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="education.html" class="dropdown__link">Education for All</a>
+                                        </li>
+                                        <li>
+                                            <a href="women.html" class="dropdown__link">Women Empowerment</a>
+                                        </li>
+                                        <li>
+                                            <a href="gurukul.html" class="dropdown__link">Gurukul</a>
+                                        </li>
+                                        <li>
+                                            <a href="spirituality.html" class="dropdown__link">Spirituality</a>
+                                        </li>
+                                        <li>
+                                            <a href="skill-development.html" class="dropdown__link">Skill
+                                                Development</a>
+                                        </li>
+                                        <li>
+                                            <a href="school-development.html" class="dropdown__link">Schools
+                                                Development</a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- dropdown 3 -->
+                    <li class="dropdown__item">
+                        <div class="nav__link dropdown__button">
+                            Get Involved <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                        <div class="dropdown__container">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="volunteer.html" class="dropdown__link">Volunteer</a>
+                                        </li>
+                                        <li>
+                                            <a href="feedback.html" class="dropdown__link">Feedback & suggestion</a>
+                                        </li>
+                                        <li>
+                                            <a href="board-of-trustees.html" class="dropdown__link">Board of
+                                                Trustees</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a href="donation.html" class="nav__link">Donate</a>
+                    </li>
+
+                    <li>
+                        <a href="blog.html" class="nav__link">Blog</a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html" class="nav__link">Contact Us</a>
+                    </li>
+
+                    <li>
+                        <a href="donation-details.html" class="nav__link">
+                            <span class="donate-btn"><i class="fa fa-heart"></i> Donate</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Breadcrumb Section  -->
+    <section class="breadcrumb-sec">
+        <div class="d-flex justify-content-center align-items-center text-center h-100">
+            <div class="text-center">
+                <h1 class="text-white position-relative z-2">Donation - FAQ's</h1>
+                <div
+                    class="text-white position-relative z-2 d-flex align-items-center justify-content-center gap-3 mt-3">
+                    <a href="index.html" class="text-white text-decoration-none">Home</a>
+                    <i class="fa-solid fa-angle-left text-white"></i>
+                    <span class="text-yellow">Donation - FAQ's</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5" style="background-color: aliceblue;">
+        <div class="container">
+            <div class="text-center">
+                <h2>Donation FAQ's</h2>
+            </div>
+            <div class="accordion mt-5" id="accordionExample">
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#donationFaqOne" aria-expanded="true" aria-controls="donationFaqOne">
+                            How can I donate to Samskaara NGO?
+                        </button>
+                    </h2>
+                    <div id="donationFaqOne" class="accordion-collapse collapse show"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>You can donate via UPI, net banking, debit/credit cards, or PayPal.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#donationFaqTwo" aria-expanded="false" aria-controls="donationFaqTwo">
+                            Are my donations tax-deductible?
+                        </button>
+                    </h2>
+                    <div id="donationFaqTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>Yes, donations are eligible for tax benefits under Section 80G.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#donationFaqThree" aria-expanded="false" aria-controls="donationFaqThree">
+                            Will I receive a donation receipt?
+                        </button>
+                    </h2>
+                    <div id="donationFaqThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>Yes! A receipt will be emailed within 24-48 hours.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#donationFaqFour" aria-expanded="false" aria-controls="donationFaqFour">
+                            Can I donate in someone else’s name?
+                        </button>
+                    </h2>
+                    <div id="donationFaqFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>Yes, you can make a tribute donation in honor of someone special.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#donationFaqFive" aria-expanded="false" aria-controls="donationFaqFive">
+                            How is my donation used?
+                        </button>
+                    </h2>
+                    <div id="donationFaqFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>Your donation supports education, skill development, healthcare, and sustainability.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#donationFaqSix" aria-expanded="false" aria-controls="donationFaqSix">
+                            Can I set up a monthly donation?
+                        </button>
+                    </h2>
+                    <div id="donationFaqSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>Yes! You can set up and manage recurring donations on our website.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#donationFaqSeven" aria-expanded="false" aria-controls="donationFaqSeven">
+                            Is my donation secure?
+                        </button>
+                    </h2>
+                    <div id="donationFaqSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>Yes! We use secure and encrypted payment gateways.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#donationFaqEight" aria-expanded="false" aria-controls="donationFaqEight">
+                            Can I volunteer instead of donating money?
+                        </button>
+                    </h2>
+                    <div id="donationFaqEight" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>Of course! Visit our Volunteer Page to sign up.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#donationFaqNinth" aria-expanded="false" aria-controls="donationFaqNinth">
+                            How do I contact you for donation queries?
+                        </button>
+                    </h2>
+                    <div id="donationFaqNinth" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>Email: yourngo@email.com<br>
+                                Phone: +91 7760776677</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section  -->
+    <section class="newsletter-section">
+        <div class="container">
+            <div class="text-center">
+                <h2>Join Us in Making a Difference!</h2>
+                <p class="my-4">Your support can give poor children a brighter future and a greener world.</p>
+                <a href="donation.html" class="yellow-btn">Donation</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-sec py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div>
+                        <div>
+                            <img src="assets/image/logo1.jpeg" alt="logo" class="ft-logo">
+                        </div>
+                        <p class="text-white">Samskaara is dedicated to empowering underprivileged communities through
+                            education,
+                            healthcare, and social welfare programs. Join us in making a difference.</p>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="">
+                        <h3 class="footer-title">Quick Links</h3>
+                        <ul>
+                            <li><a href="aboutus.html" class="text-white">About Us</a></li>
+                            <li><a href="aboutus.html" class="text-white">Our Mission</a></li>
+                            <li><a href="donation-faqs.html" class="text-white">donation faqs</a></li>
+                            <li><a href="termcondition.html" class="text-white">Terms & Conditions</a></li>
+                            <li><a href="privacy-policy.html" class="text-white">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="">
+                        <h3 class="footer-title">Programs</h3>
+                        <ul>
+                            <li><a href="education.html" class="text-white">Education for All</a></li>
+                            <li><a href="women.html" class="text-white">Women Empowerment</a></li>
+                            <li><a href="skill-development.html" class="text-white">Skill Development</a></li>
+                            <li><a href="gurukul.html" class="text-white">Gurukul</a></li>
+                            <li><a href="school-development.html" class="text-white">Schools Development</a></li>
+                            <li><a href="spirituality.html" class="text-white">Spirituality</a></li>
+                            <li><a href="disabled-people.html" class="text-white">Disabled people</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="">
+                        <h3 class="footer-title">Donation</h3>
+                        <ul>
+                            <li><a href="donation.html" class="text-white">One-Time Donation</a></li>
+                            <li><a href="donation.html" class="text-white">Monthly Giving</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="">
+                        <h3 class="footer-title">Contact</h3>
+                        <ul>
+                            <li><a href="#" class="text-white"><i class="fa-solid fa-phone"></i> 7760776677</a></li>
+                            <li><a href="#" class="text-white"><i class="fa-solid fa-envelope"></i>
+                                    samskaara@gmail.com</a></li>
+                            <li><a href="#" class="text-white"><i class="fa-solid fa-location-dot"></i> No 95, 1 st Main
+                                    Road, Block 3, BEML Layout Stage 4, Rajarajeshwari Nagara, Bangalore-560098,
+                                    Karnataka</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Script CDN Link  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- External Script Sheet  -->
+    <script src="assets/script/script.js"></script>
+</body>
+
+</html>

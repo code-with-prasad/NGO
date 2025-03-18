@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NGO</title>
+
+    <!-- Bootstrap Style CDN Link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+
+    <!-- Fontawesome CDN Links  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+    <!-- External Style Sheet  -->
+    <link rel="stylesheet" href="assets/style/style.css" />
+</head>
+
+<body>
+    <!-- Top Navbar  -->
+    <div class="py-2" style="background-color: #0B8B68;">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center gap-3">
+                <span><i class="fa-solid fa-envelope text-white"></i> <a href=""
+                        class="text-white text-decoration-none"> samskaara@gmail.com</a></span>
+                <span><i class="fa-solid fa-phone text-white"></i> <a href="tell:7760776677"
+                        class="text-white text-decoration-none">7760776677</a></span>
+            </div>
+            <ul class="list-unstyled m-0 d-flex align-items-center gap-4 justify-content-center">
+                <li><a href="#"><i class="fa-brands fa-facebook-f text-white"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram text-white"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin-in text-white"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-x-twitter text-white"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-youtube text-white"></i></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Main Navbar  -->
+    <header class="header">
+        <!-- ******************************* def-container  (add this class in nav )-->
+        <nav class="nav container">
+            <div class="nav__data">
+                <a href="index.html" class="nav__logo">
+                    <img src="assets/image/logo1.jpeg" alt="logo">
+                    <!-- <h3>NGO</h3> -->
+                </a>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line nav__toggle-menu"></i>
+                    <i class="ri-close-line nav__toggle-close"></i>
+                </div>
+            </div>
+
+            <!-- Nav Menu  -->
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li>
+                        <a href="index.html" class="nav__link">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="aboutus.html" class="nav__link">About Us</a>
+                    </li>
+
+                    <!-- dropdown 2 -->
+                    <li class="dropdown__item">
+                        <div class="nav__link dropdown__button">
+                            What we do <i class="fa-solid fa-angle-down"></i>
+                        </div>
+
+                        <div class="dropdown__container">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+                                    <!-- <span class="dropdown__title">Teachers</span> -->
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="education.html" class="dropdown__link">Education for All</a>
+                                        </li>
+                                        <li>
+                                            <a href="women.html" class="dropdown__link">Women Empowerment</a>
+                                        </li>
+                                        <li>
+                                            <a href="gurukul.html" class="dropdown__link">Gurukul</a>
+                                        </li>
+                                        <li>
+                                            <a href="spirituality.html" class="dropdown__link">Spirituality</a>
+                                        </li>
+                                        <li>
+                                            <a href="skill-development.html" class="dropdown__link">Skill
+                                                Development</a>
+                                        </li>
+                                        <li>
+                                            <a href="school-development.html" class="dropdown__link">Schools
+                                                Development</a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- dropdown 3 -->
+                    <li class="dropdown__item">
+                        <div class="nav__link dropdown__button">
+                            Get Involved <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                        <div class="dropdown__container">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="volunteer.html" class="dropdown__link">Volunteer</a>
+                                        </li>
+                                        <li>
+                                            <a href="feedback.html" class="dropdown__link">Feedback & suggestion</a>
+                                        </li>
+                                        <li>
+                                            <a href="board-of-trustees.html" class="dropdown__link">Board of
+                                                Trustees</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a href="donation.html" class="nav__link">Donate</a>
+                    </li>
+
+                    <li>
+                        <a href="blog.html" class="nav__link">Blog</a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html" class="nav__link">Contact Us</a>
+                    </li>
+
+                    <li>
+                        <a href="donation-details.html" class="nav__link">
+                            <span class="donate-btn"><i class="fa fa-heart"></i> Donate</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Breadcrumb Section  -->
+    <section class="breadcrumb-sec">
+        <div class="d-flex justify-content-center align-items-center text-center h-100">
+            <div class="text-center">
+                <h1 class="text-white position-relative z-2">Environmental Awareness</h1>
+                <div
+                    class="text-white position-relative z-2 d-flex align-items-center justify-content-center gap-3 mt-3">
+                    <a href="index.html" class="text-white text-decoration-none">Home</a>
+                    <i class="fa-solid fa-angle-left text-white"></i>
+                    <span class="text-yellow">Environmental Awareness</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5" style="background-color: aliceblue;">
+        <div class="container">
+            <p>At Samskaara Foundation, we are dedicated to protecting our environment and promoting sustainable living.
+                The world is facing unprecedented environmental challenges, including rising pollution levels,
+                deforestation, water scarcity, climate change, and biodiversity loss. These issues threaten not only the
+                planet’s health but also the well-being of future generations.</p>
+            <p>As responsible global citizens, it is our duty to take action now before it’s too late. Our foundation is
+                committed to addressing these concerns by fostering environmental awareness, encouraging eco-friendly
+                practices, and implementing long-term sustainable solutions. Through education, community participation,
+                and impactful initiatives, we strive to create a cleaner, greener, and healthier world.</p>
+            <div class="row">
+                <div class="col-md-6">
+                    <div>
+                        <img src="assets/image/resource/environmental .jpg" alt="environmental awareness" class="w-100">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div>
+                        <h6>Tree Plantation Drives</h6>
+                        <p>We conduct large-scale tree plantations to combat deforestation and improve air quality.
+                            Volunteers actively participate in planting trees in schools, parks, and urban areas.</p>
+                        <h6>Clean India Campaign</h6>
+                        <p>Our teams organize cleanliness drives in public areas to promote hygiene, reduce littering,
+                            and spread awareness about proper waste disposal.</p>
+                        <h6>Water Conservation Programs</h6>
+                        <p>We educate communities on methods like rainwater harvesting, reducing water wastage, and
+                            using efficient irrigation techniques.</p>
+                        <h6>Say No to Plastic</h6>
+                        <p>Plastic waste is a major environmental threat. We promote alternatives like cloth bags,
+                            biodegradable materials, and reusable products to minimize plastic pollution.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-3">
+                <h2>Our Commitment to the Environment</h2>
+                <p>We believe that every individual and organization has a role to play in protecting nature. Our
+                    efforts focus on multiple key areas that contribute to a sustainable future:</p>
+                <h6>Spreading Awareness & Education</h6>
+                <p>We conduct workshops, awareness campaigns, and educational programs to inform people about climate
+                    change, waste management, water conservation, and the importance of renewable energy. By empowering
+                    individuals with knowledge, we encourage them to adopt environmentally friendly habits in their
+                    daily lives.</p>
+                <h6>Community Participation & Green Initiatives</h6>
+                <p>A sustainable future is only possible with collective action. We engage with local communities,
+                    schools, and businesses to participate in tree plantation drives, waste management projects, and
+                    eco-friendly lifestyle initiatives. Through these programs, we aim to instill a sense of
+                    responsibility and urgency in protecting nature.</p>
+                <h6>Tackling Pollution & Waste Management</h6>
+                <p>Pollution has become a major environmental hazard, affecting air, water, and land. Our foundation
+                    works on promoting zero waste practices, recycling programs, and reducing single-use plastics. We
+                    conduct clean-up drives in cities, beaches, parks, and public spaces to restore nature's beauty and
+                    health.</p>
+                <h6> Protecting Forests & Wildlife</h6>
+                <p>Deforestation and habitat destruction are driving numerous species toward extinction. At Samskaara
+                    Foundation, we advocate for forest conservation, afforestation, and biodiversity protection. By
+                    collaborating with local and national organizations, we support reforestation efforts and ensure
+                    wildlife habitats remain untouched and preserved.</p>
+                <h6> Promoting Renewable Energy & Sustainable Solutions</h6>
+                <p>Fossil fuels are one of the largest contributors to global warming. To combat this, we promote the
+                    use of solar, wind, and hydropower as alternative energy sources. Through advocacy and awareness
+                    programs, we educate individuals and businesses on the benefits of transitioning to clean, green
+                    energy solutions.</p>
+                <h6>Water Conservation & Clean Water Initiatives</h6>
+                <p>Water is the most precious natural resource, yet millions face water scarcity. Our initiatives focus
+                    on rainwater harvesting, water recycling, and reducing water wastage. By implementing simple yet
+                    effective techniques, we help communities conserve water and ensure clean drinking water is
+                    accessible to all.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-3">
+        <div class="container">
+            <div>
+                <h2 class="text-center">Our Initiatives</h2>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-4">
+                    <div class="text-center">
+                        <div>
+                            <img src="assets/image/icons/icon6.png" alt="">
+                        </div>
+                        <h4 class="mt-2">Tree Plantation</h4>
+                        <p>We plant trees in urban and rural areas to combat deforestation.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="text-center">
+                        <div>
+                            <img src="assets/image/icons/icon7.png" alt="">
+                        </div>
+                        <h4 class="mt-2">Clean India Drives</h4>
+                        <p>We organize cleanliness campaigns to promote hygiene and waste management.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="text-center">
+                        <div>
+                            <img src="assets/image/icons/icon8.png" alt="">
+                        </div>
+                        <h4 class="mt-2">Water Conservation</h4>
+                        <p>Educating people on saving water and rainwater harvesting.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter-section">
+        <div class="container">
+            <div class="text-center">
+                <h2>Join Us in Making a Difference!</h2>
+                <p class="my-4">Your support can help us create a cleaner and greener world.</p>
+                <a href="donation.html" class="yellow-btn">Donation</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-sec py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div>
+                        <div>
+                            <img src="assets/image/logo1.jpeg" alt="logo" class="ft-logo">
+                        </div>
+                        <p class="text-white">Samskaara is dedicated to empowering underprivileged communities through
+                            education,
+                            healthcare, and social welfare programs. Join us in making a difference.</p>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="">
+                        <h3 class="footer-title">Quick Links</h3>
+                        <ul>
+                            <li><a href="#" class="text-white">Home</a></li>
+                            <li><a href="#" class="text-white">About Us</a></li>
+                            <li><a href="#" class="text-white">Our Mission</a></li>
+                            <li><a href="#" class="text-white">Our Impact</a></li>
+                            <li><a href="#" class="text-white">History</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="">
+                        <h3 class="footer-title">Programs</h3>
+                        <ul>
+                            <li><a href="#" class="text-white">Education</a></li>
+                            <li><a href="#" class="text-white">Women Empowerment</a></li>
+                            <li><a href="#" class="text-white">Health & Hygiene</a></li>
+                            <li><a href="#" class="text-white">Skill Development</a></li>
+                            <li><a href="#" class="text-white">Environmental Awarenes</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="">
+                        <h3 class="footer-title">Donation</h3>
+                        <ul>
+                            <li><a href="#" class="text-white">One-Time Donation</a></li>
+                            <li><a href="#" class="text-white">Monthly Giving</a></li>
+                            <li><a href="#" class="text-white">Corporate Sponsorship</a></li>
+                            <li><a href="#" class="text-white">Crowdfunding</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="">
+                        <h3 class="footer-title">Contact</h3>
+                        <ul>
+                            <li><a href="#" class="text-white"><i class="fa-solid fa-phone"></i> 7896321548</a></li>
+                            <li><a href="#" class="text-white"><i class="fa-solid fa-envelope"></i>
+                                    samskaara@gmail.com</a></li>
+                            <li><a href="#" class="text-white"><i class="fa-solid fa-location-dot"></i> Plot No –
+                                    12,(SCR) 2nd Floor
+                                    Kharvel Nagar, Unit – 3, Behind BDA Office, 751001</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Script CDN Link  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- External Script Sheet  -->
+    <script src="assets/script/script.js"></script>
+</body>
+
+</html>

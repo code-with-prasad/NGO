@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NGO</title>
+
+    <!-- Bootstrap Style CDN Link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+
+    <!-- Fontawesome CDN Links  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+    <!-- External Style Sheet  -->
+    <link rel="stylesheet" href="assets/style/style.css" />
+</head>
+
+<body>
+    <!-- Top Navbar  -->
+    <div class="py-2" style="background-color: #0B8B68;">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center gap-3">
+                <span><i class="fa-solid fa-envelope text-white"></i> <a href=""
+                        class="text-white text-decoration-none"> samskaara@gmail.com</a></span>
+                <span><i class="fa-solid fa-phone text-white"></i> <a href="tell:7760776677"
+                        class="text-white text-decoration-none">7760776677</a></span>
+            </div>
+            <ul class="list-unstyled m-0 d-flex align-items-center gap-4 justify-content-center">
+                <li><a href="#"><i class="fa-brands fa-facebook-f text-white"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram text-white"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin-in text-white"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-x-twitter text-white"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-youtube text-white"></i></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Main Navbar  -->
+    <header class="header">
+        <!-- ******************************* def-container  (add this class in nav )-->
+        <nav class="nav container">
+            <div class="nav__data">
+                <a href="index.html" class="nav__logo">
+                    <img src="assets/image/logo1.jpeg" alt="logo">
+                    <!-- <h3>NGO</h3> -->
+                </a>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line nav__toggle-menu"></i>
+                    <i class="ri-close-line nav__toggle-close"></i>
+                </div>
+            </div>
+
+            <!-- Nav Menu  -->
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li>
+                        <a href="index.html" class="nav__link">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="aboutus.html" class="nav__link">About Us</a>
+                    </li>
+
+                    <!-- dropdown 2 -->
+                    <li class="dropdown__item">
+                        <div class="nav__link dropdown__button">
+                            What we do <i class="fa-solid fa-angle-down"></i>
+                        </div>
+
+                        <div class="dropdown__container">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+                                    <!-- <span class="dropdown__title">Teachers</span> -->
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="education.html" class="dropdown__link">Education for All</a>
+                                        </li>
+                                        <li>
+                                            <a href="women.html" class="dropdown__link">Women Empowerment</a>
+                                        </li>
+                                        <li>
+                                            <a href="gurukul.html" class="dropdown__link">Gurukul</a>
+                                        </li>
+                                        <li>
+                                            <a href="spirituality.html" class="dropdown__link">Spirituality</a>
+                                        </li>
+                                        <li>
+                                            <a href="skill-development.html" class="dropdown__link">Skill
+                                                Development</a>
+                                        </li>
+                                        <li>
+                                            <a href="school-development.html" class="dropdown__link">Schools
+                                                Development</a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- dropdown 3 -->
+                    <li class="dropdown__item">
+                        <div class="nav__link dropdown__button">
+                            Get Involved <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                        <div class="dropdown__container">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="volunteer.html" class="dropdown__link">Volunteer</a>
+                                        </li>
+                                        <li>
+                                            <a href="feedback.html" class="dropdown__link">Feedback & suggestion</a>
+                                        </li>
+                                        <li>
+                                            <a href="board-of-trustees.html" class="dropdown__link">Board of
+                                                Trustees</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a href="donation.html" class="nav__link">Donate</a>
+                    </li>
+
+                    <li>
+                        <a href="blog.html" class="nav__link">Blog</a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html" class="nav__link">Contact Us</a>
+                    </li>
+
+                    <li>
+                        <a href="donation-details.html" class="nav__link">
+                            <span class="donate-btn"><i class="fa fa-heart"></i> Donate</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Breadcrumb Section  -->
+    <section class="breadcrumb-sec">
+        <div class="d-flex justify-content-center align-items-center text-center h-100">
+            <div class="text-center">
+                <h1 class="text-white position-relative z-2">One-Time Donations</h1>
+                <div
+                    class="text-white position-relative z-2 d-flex align-items-center justify-content-center gap-3 mt-3">
+                    <a href="index.html" class="text-white text-decoration-none">Home</a>
+                    <i class="fa-solid fa-angle-left text-white"></i>
+                    <span class="text-yellow">Donation</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- donation Details Section  -->
+    <section class="donationDetails-sec py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div>
+                        <h2>One-Time Donations</h2>
+                        <div>
+                            <img src="assets/image/resource/donation.jpeg" alt="One-Time Donations"
+                                class="w-100 rounded">
+                        </div>
+                        <div class="mt-3">
+                            <div>
+                                <span>Looking for:</span>
+                                <div class="progress w-100" role="progressbar" aria-label="Success example"
+                                    aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar" style="background-color: #FE914F;">0%</div>
+                                </div>
+                            </div>
+                            <div>
+                                <span>We are at:</span>
+                                <div class="progress w-100" role="progressbar" aria-label="Success example"
+                                    aria-valuemin="0" aria-valuemax="70">
+                                    <div class="progress-bar" style="background-color: #0B8B68;">0%</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-2">
+                            <p>"Your one-time contribution, no matter how big or small, can bring a significant change
+                                in someone's life."
+                                Every donation helps us provide education, healthcare, and empowerment programs for
+                                those in need. Your kindness can light up someone's future today!</p>
+                            <h6>Monthly Giving</h6>
+                            <span class="fst-italic">Consistent support leads to lasting impact.</span>
+                            <p>By becoming a monthly donor, you ensure continuous aid for underprivileged communities.
+                                Your recurring contribution helps sustain vital programs and brings hope to many lives.
+                            </p>
+
+                            <h6>Sponsor a Cause</h6>
+                            <span class="fst-italic">Support a cause that speaks to your heart.</span>
+                            <p>Choose to fund specific initiatives like education for girls, healthcare for the
+                                underprivileged, skill development for women, or food for struggling families. Your
+                                donation directly impacts those who need it most.</p>
+
+                            <h6>Corporate & CSR Donations</h6>
+                            <span class="fst-italic">"Partner with us to create meaningful change."</span>
+                            <p>Companies and organizations can collaborate with Samskaara Foundation through CSR
+                                initiatives, sponsorships, or workplace giving programs. Together, we can build a better
+                                future.</p>
+
+                            <h6>In-Kind Donations</h6>
+                            <span class="fst-italic">"Not all donations have to be monetary."</span>
+                            <p>We also accept contributions in the form of books, clothes, food, medical supplies, and
+                                other essentials. Every little effort counts in making a difference!</p>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div>
+                        <form action="" class="mt-5">
+                            <div class="row gy-3">
+                                <div class="col-md-12">
+                                    <div>
+                                        <strong class="text-center">Choose a amount to donate</strong>
+                                        <div
+                                            class="donation-amount d-flex align-items-center justify-content-between flex-wrap gap-3 mt-4">
+                                            <div>
+                                                <input type="radio" class="btn-check" value="195000.00" name="options"
+                                                    id="option1" autocomplete="off" checked>
+                                                <label for="option1" onclick="selectAmount(195000)"
+                                                    class="amount-btn amount-active rounded-pill cursor-pointer">
+                                                    &#8377; 195000.00
+                                                </label>
+                                            </div>
+
+                                            <div>
+                                                <input type="radio" class="btn-check" value="270000" name="options"
+                                                    id="option2" autocomplete="off" checked>
+                                                <label for="option2" onclick="selectAmount(270000)"
+                                                    class="amount-btn rounded-pill cursor-pointer">
+                                                    &#8377; 270000.00
+                                                </label>
+                                            </div>
+
+                                            <div>
+                                                <input type="radio" class="btn-check" value="360000" name="options"
+                                                    id="option3" autocomplete="off" checked>
+                                                <label for="option3" onclick="selectAmount(360000)"
+                                                    class="amount-btn rounded-pill cursor-pointer">
+                                                    &#8377; 360000.00
+                                                </label>
+                                            </div>
+
+                                            <div>
+                                                <input type="radio" class="btn-check" value="480000" name="options"
+                                                    id="option4" autocomplete="off" checked>
+                                                <label for="option4" onclick="selectAmount(480000)"
+                                                    class="amount-btn rounded-pill cursor-pointer">
+                                                    &#8377; 480000.00
+                                                </label>
+                                            </div>
+
+                                            <div>
+                                                <input type="radio" class="btn-check" value="550000" name="options"
+                                                    id="option5" autocomplete="off" checked>
+                                                <label for="option5" onclick="selectAmount(550000)"
+                                                    class="amount-btn rounded-pill cursor-pointer">
+                                                    &#8377; 550000.00
+                                                </label>
+                                            </div>
+
+                                            <div>
+                                                <input type="radio" class="btn-check" value="600000" name="options"
+                                                    id="option5" autocomplete="off" checked>
+                                                <label for="option5" onclick="selectAmount(600000)"
+                                                    class="amount-btn rounded-pill cursor-pointer">
+                                                    &#8377; 600000.00
+                                                </label>
+                                            </div>
+
+
+                                            <div>
+                                                <input type="radio" class="btn-check" value="700000" name="options"
+                                                    id="option5" autocomplete="off" checked>
+                                                <label for="option5" onclick="selectAmount(700000)"
+                                                    class="amount-btn rounded-pill cursor-pointer">
+                                                    &#8377; 700000.00
+                                                </label>
+                                            </div>
+
+                                            <div>
+                                                <input type="radio" class="btn-check" value="800000" name="options"
+                                                    id="option5" autocomplete="off" checked>
+                                                <label for="option5" onclick="selectAmount(800000)"
+                                                    class="amount-btn rounded-pill cursor-pointer">
+                                                    &#8377; 800000.00
+                                                </label>
+                                            </div>
+
+
+                                            <div>
+                                                <input type="number" oninput="updateNote()" id="other-amount"
+                                                    class="rounded-pill py-2 px-1 border border-2 border-success amount-btn"
+                                                    placeholder="Other Amount">
+                                            </div>
+
+                                        </div>
+                                        <div class="mt-4">
+                                            <p class="note orange text-center fw-bold">You are donating &#8377;<strong
+                                                    id="amount">
+                                                    195000 </strong> For One Time Donation.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="">
+                                        <label for="exampleInputEmail1" class="form-label">Full Name</label>
+                                        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                                        <div id="nameErr" class="form-text text-danger d-none">This fild is required
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="">
+                                        <label for="dob" class="form-label">Date of Birth</label>
+                                        <input type="date" class="form-control" id="dob">
+                                        <div id="dobErr" class="form-text text-danger d-none">This fild is required
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="">
+                                        <label for="email" class="form-label">Email</label>
+                                        <input type="text" class="form-control" id="email"
+                                            placeholder="Enter your Email">
+                                        <div id="emailErr" class="form-text text-danger d-none">This fild is required
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="">
+                                        <label for="mobile" class="form-label">Mobile</label>
+                                        <input type="text" class="form-control" id="mobile"
+                                            placeholder="Enter your name">
+                                        <div id="mobileErr" class="form-text text-danger d-none">This fild is required
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="">
+                                        <label for="address" class="form-label">Address</label>
+                                        <input type="text" class="form-control" id="address"
+                                            placeholder="Enter your address">
+                                        <div id="addressErr" class="form-text text-danger d-none">This fild is required
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="">
+                                        <label for="pin" class="form-label">Pin Code</label>
+                                        <input type="text" class="form-control" id="pin"
+                                            placeholder="Enter your pin code">
+                                        <div id="pinErr" class="form-text text-danger d-none">This fild is required
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="">
+                                        <label for="city" class="form-label">City</label>
+                                        <input type="text" class="form-control" id="city" placeholder="Enter your city">
+                                        <div id="cityErr" class="form-text text-danger d-none">This fild is required
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="">
+                                        <label for="state" class="form-label">State</label>
+                                        <input type="text" class="form-control" id="state"
+                                            placeholder="Enter your state">
+                                        <div id="stateErr" class="form-text text-danger d-none">This fild is required
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="">
+                                        <label for="country" class="form-label">Country</label>
+                                        <input type="text" class="form-control" id="country"
+                                            placeholder="Enter your country">
+                                        <div id="countryErr" class="form-text text-danger d-none">This fild is required
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="">
+                                        <label for="pan" class="form-label">PAN Number</label>
+                                        <input type="text" class="form-control" id="pin"
+                                            placeholder="Enter your PAN number">
+                                        <div id="panErr" class="form-text text-danger d-none">This fild is required
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mt-3">
+                                <p>I have read through the website's <a href="privacy-policy.html"
+                                        class="text-decoration-none text-primary">Privacy Policy</a> & <a
+                                        href="termcondition.html" class="text-decoration-none text-primary">Terms and
+                                        Conditions</a> to make a donation.</p>
+                            </div>
+                            <div>
+                                <img src="https://indbharatglobal.org/front-assets/images/cards-payment-strip.png"
+                                    alt="card" class="w-100">
+                                <p class="text-center">We accept all major payment methods</p>
+                            </div>
+                            <div class="mt-4">
+                                <button type="submit" class="btn btn-primary w-100">Continue To Payment</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-sec py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div>
+                        <div>
+                            <img src="assets/image/logo1.jpeg" alt="logo" class="ft-logo">
+                        </div>
+                        <p class="text-white">Samskaara is dedicated to empowering underprivileged communities through
+                            education,
+                            healthcare, and social welfare programs. Join us in making a difference.</p>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="">
+                        <h3 class="footer-title">Quick Links</h3>
+                        <ul>
+                            <li><a href="aboutus.html" class="text-white">About Us</a></li>
+                            <li><a href="aboutus.html" class="text-white">Our Mission</a></li>
+                            <li><a href="donation-faqs.html" class="text-white">donation faqs</a></li>
+                            <li><a href="termcondition.html" class="text-white">Terms & Conditions</a></li>
+                            <li><a href="privacy-policy.html" class="text-white">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="">
+                        <h3 class="footer-title">Programs</h3>
+                        <ul>
+                            <li><a href="education.html" class="text-white">Education for All</a></li>
+                            <li><a href="women.html" class="text-white">Women Empowerment</a></li>
+                            <li><a href="skill-development.html" class="text-white">Skill Development</a></li>
+                            <li><a href="gurukul.html" class="text-white">Gurukul</a></li>
+                            <li><a href="school-development.html" class="text-white">Schools Development</a></li>
+                            <li><a href="spirituality.html" class="text-white">Spirituality</a></li>
+                            <li><a href="disabled-people.html" class="text-white">Disabled people</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="">
+                        <h3 class="footer-title">Donation</h3>
+                        <ul>
+                            <li><a href="donation.html" class="text-white">One-Time Donation</a></li>
+                            <li><a href="donation.html" class="text-white">Monthly Giving</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="">
+                        <h3 class="footer-title">Contact</h3>
+                        <ul>
+                            <li><a href="#" class="text-white"><i class="fa-solid fa-phone"></i> 7760776677</a></li>
+                            <li><a href="#" class="text-white"><i class="fa-solid fa-envelope"></i>
+                                    samskaara@gmail.com</a></li>
+                            <li><a href="#" class="text-white"><i class="fa-solid fa-location-dot"></i> No 95, 1 st Main
+                                    Road, Block 3, BEML Layout Stage 4, Rajarajeshwari Nagara, Bangalore-560098,
+                                    Karnataka</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Script CDN Link  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- External Script Sheet  -->
+    <script src="assets/script/script.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            let progressBars = document.querySelectorAll(".progress-bar");
+            progressBars.forEach((bar) => {
+                let maxValue = bar.parentElement.getAttribute("aria-valuemax") || 100;
+                setTimeout(() => {
+                    bar.style.width = maxValue + "%";
+                    bar.textContent = maxValue + "%";
+                }, 200);
+            })
+        })
+    </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const amountButtons = document.querySelectorAll('.amount-btn');
+
+            amountButtons.forEach(button => {
+                button.addEventListener('click', function () {
+                    amountButtons.forEach(btn => btn.classList.remove('amount-active'));
+                    this.classList.add('amount-active')
+                })
+            })
+        })
+
+        function selectAmount(amount) {
+            document.getElementById('amount').textContent = amount;
+        }
+
+        function updateNote() {
+            let otherAmount = parseFloat(document.getElementById('other-amount').value);
+            if (!isNaN(otherAmount)) {
+                document.getElementById('amount').textContent = otherAmount;
+            } else {
+                document.getElementById('amount').textContent = 0;
+            }
+        }
+
+
+    </script>
+
+</body>
+
+</html>
