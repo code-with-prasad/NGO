@@ -731,6 +731,7 @@ Our Ongoing Projects Section
 .projects-card {
   border: 5px solid #dddddd;
   cursor: pointer;
+
   -webkit-transition: all 00ms ease;
   -moz-transition: all 400ms ease;
   -ms-transition: all 400ms ease;
@@ -759,17 +760,16 @@ about samskaara foundation
 
 .aboutSamskaara-sec {
   background-color: #dddddd;
-  padding: 110px 10px;
+  padding: 80px 10px;
 }
 
-.aboutSamskaara-img {
+/* .aboutSamskaara-img {
   position: relative;
   display: inline-block;
-  /* Ensures pseudo-element works */
   z-index: 5;
-}
+} */
 
-.aboutSamskaara-img::after {
+/* .aboutSamskaara-img::after {
   content: "";
   position: absolute;
   border: 5px solid var(--logo-color);
@@ -780,7 +780,7 @@ about samskaara foundation
   transform: translate(30px, -30px);
   z-index: -1;
   border-radius: 8px;
-}
+} */
 
 /* 
 =============================================================

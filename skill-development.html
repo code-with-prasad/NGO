@@ -23,16 +23,21 @@
 </head>
 
 <body>
+
   <!-- Top Navbar  -->
   <div class="py-2" style="background-color: #0B8B68;">
-    <div class="container d-flex justify-content-between align-items-center">
-      <div class="d-flex align-items-center gap-3">
-        <span><i class="fa-solid fa-envelope text-white"></i> <a href="" class="text-white text-decoration-none">
-            samskaara@gmail.com</a></span>
-        <span><i class="fa-solid fa-phone text-white"></i> <a href="tell:7760776677"
-            class="text-white text-decoration-none">7760776677</a></span>
+    <div class="container top-nav ">
+      <div class="hideIcon">
+        <div class="d-flex align-items-center gap-3">
+          <span><i class="fa-solid fa-envelope text-white"></i> <a href="" class="text-white text-decoration-none">
+              samskaara@gmail.com</a></span>
+          <span><i class="fa-solid fa-phone text-white"></i> <a href="tel:7760776677"
+              class="text-white text-decoration-none">7760776677</a></span>
+        </div>
       </div>
       <ul class="list-unstyled m-0 d-flex align-items-center gap-4 justify-content-center">
+        <li class="showIcon"><a href="#"><i class="fa-solid fa-envelope text-white"></i></a></li>
+        <li class="showIcon"><a href="#"><i class="fa-solid fa-phone text-white"></i></a></li>
         <li><a href="#"><i class="fa-brands fa-facebook-f text-white"></i></a></li>
         <li><a href="#"><i class="fa-brands fa-instagram text-white"></i></a></li>
         <li><a href="#"><i class="fa-brands fa-linkedin-in text-white"></i></a></li>
@@ -49,11 +54,10 @@
       <div class="nav__data">
         <a href="index.html" class="nav__logo">
           <img src="assets/image/logo1.jpeg" alt="logo">
-          <!-- <h3>NGO</h3> -->
         </a>
         <div class="nav__toggle" id="nav-toggle">
-          <i class="ri-menu-line nav__toggle-menu"></i>
-          <i class="ri-close-line nav__toggle-close"></i>
+          <i class="fa-solid fa-bars nav__toggle-menu"></i>
+          <i class="fa-solid fa-xmark nav__toggle-close"></i>
         </div>
       </div>
 
@@ -92,10 +96,12 @@
                       <a href="spirituality.html" class="dropdown__link">Spirituality</a>
                     </li>
                     <li>
-                      <a href="skill-development.html" class="dropdown__link">Skill Development</a>
+                      <a href="skill-development.html" class="dropdown__link">Skill
+                        Development</a>
                     </li>
                     <li>
-                      <a href="school-development.html" class="dropdown__link">Schools Development</a>
+                      <a href="school-development.html" class="dropdown__link">Schools
+                        Development</a>
                     </li>
 
                   </ul>
@@ -120,7 +126,8 @@
                       <a href="feedback.html" class="dropdown__link">Feedback & suggestion</a>
                     </li>
                     <li>
-                      <a href="board-of-trustees.html" class="dropdown__link">Board of Trustees</a>
+                      <a href="board-of-trustees.html" class="dropdown__link">Board of
+                        Trustees</a>
                     </li>
                   </ul>
                 </div>
@@ -166,134 +173,189 @@
 
   <section class="py-5" style="background-color: aliceblue;">
     <div class="container">
-      <div class="row gy-4">
-        <!-- Card 1  -->
-        <div class="col-md-6">
-          <img src="assets/image/resource/skill1.jpg" class="img-fluid rounded w-100"
-            alt="Receptionist Skills Training">
+      
+      <!-- Card-1  -->
+      <div class="row mb-4">
+        <div class="col-lg-6 col-md-12">
+          <div>
+            <img src="assets/image/resource/skill1.jpg" class="img-fluid rounded w-100 m-auto"
+              alt="Receptionist Skills Training">
+          </div>
         </div>
-        <div class="col-md-6">
-          <h2>Receptionist Skills Training</h2>
-          <p><i class="fa-solid fa-circle-check"></i> <b> Communication Skills</b> – A receptionist must have clear
-            verbal
-            and written communication to greet visitors, answer calls, and handle inquiries professionally.</p>
-          <p> <i class="fa-solid fa-circle-check"></i><b> Customer Service</b> – Providing a friendly and helpful
-            experience for guests, handling complaints with patience, and ensuring customer satisfaction.
-          </p>
-          <p><i class="fa-solid fa-circle-check"></i> <b> Organizational & Multitasking</b> – Managing appointments,
-            scheduling meetings, handling paperwork, and keeping the front desk area organized.</p>
-          <p><i class="fa-solid fa-circle-check"></i> <b> Technical & Computer Skills </b> – Proficiency in using office
-            software (MS Office, emails, databases) and handling phone systems for efficient day-to-day operations.</p>
-          <p><i class="fa-solid fa-circle-check"></i> <b> Professionalism & Etiquette </b> – Maintaining a polite and
-            professional attitude, following workplace etiquette, and dressing appropriately.</p>
-          <p><i class="fa-solid fa-circle-check"></i> <b>Time Management </b> – Prioritizing tasks effectively to handle
-            multiple responsibilities without delays.</p>
+        <div class="col-lg-6 col-md-12 mt-3 mt-lg-0">
+          <div>
+            <h2>Receptionist Skills Training</h2>
+            <p><i class="fa-solid fa-circle-check"></i> <b> Communication Skills</b> – A receptionist must have clear
+              verbal
+              and written communication to greet visitors, answer calls, and handle inquiries professionally.</p>
+            <p> <i class="fa-solid fa-circle-check"></i><b> Customer Service</b> – Providing a friendly and helpful
+              experience for guests, handling complaints with patience, and ensuring customer satisfaction.
+            </p>
+            <p><i class="fa-solid fa-circle-check"></i> <b> Organizational & Multitasking</b> – Managing appointments,
+              scheduling meetings, handling paperwork, and keeping the front desk area organized.</p>
+            <p><i class="fa-solid fa-circle-check"></i> <b> Technical & Computer Skills </b> – Proficiency in using
+              office
+              software (MS Office, emails, databases) and handling phone systems for efficient day-to-day operations.
+            </p>
+            <p><i class="fa-solid fa-circle-check"></i> <b> Professionalism & Etiquette </b> – Maintaining a polite and
+              professional attitude, following workplace etiquette, and dressing appropriately.</p>
+          </div>
         </div>
-
-        <!-- Card 2  -->
-        <div class="col-md-6">
-          <h2>Computer Skills Training </h2>
-          <p><i class="fa-solid fa-circle-check"></i> <b> Basic Computer Literacy</b> – Understanding how to use a
-            computer, operating systems (Windows, macOS), and basic troubleshooting.</p>
-          <p><i class="fa-solid fa-circle-check"></i> <b> Typing & Data Entry</b> – Improving typing speed and accuracy,
-            using tools like MS Word and Excel for data entry.</p>
-          <p><i class="fa-solid fa-circle-check"></i> <b> Microsoft Office & Google Workspace </b> – Learning MS Word,
-            Excel, PowerPoint, and Google Docs, Sheets, and Slides for office tasks.</p>
-          <p><i class="fa-solid fa-circle-check"></i> <b> Cybersecurity Awareness </b> – Understanding online security,
-            avoiding phishing scams, and creating strong passwords.</p>
-          <p><i class="fa-solid fa-circle-check"></i> <b> Basic Digital Communication</b> – Using Zoom, Google Meet, and
-            other collaboration tools for virtual meetings and teamwork.</p>
-        </div>
-        <div class="col-md-6">
-          <img src="assets/image/resource/women1.jpeg" class="img-fluid rounded w-100" alt="Computer Skills Training">
-        </div>
-
-        <div class="col-md-6">
-          <img src="assets/image/resource/skill2.jpg" class="img-fluid rounded w-100" alt="Electro Tech Training">
-        </div>
-        <div class="col-md-6">
-          <h2>Electro Tech Training</h2>
-          <p><i class="fa-solid fa-circle-check"></i> <b> Fundamentals of Electrical and Electronics </b> – Covers basic
-            concepts like circuits, voltage, current, resistance, and electronic components.</p>
-          <p><i class="fa-solid fa-circle-check"></i> <b> Hands-on Practical Training</b> – Focuses on real-world
-            applications, including wiring, soldering, and troubleshooting electrical systems.</p>
-          <p><i class="fa-solid fa-circle-check"></i> <b> Safety and Compliance</b> – Teaches important safety measures,
-            electrical codes, and regulations to prevent hazards.
-          </p>
-          <p><i class="fa-solid fa-circle-check"></i> <b> Use of Modern Tools & Equipment</b> – Provides training on
-            using
-            oscilloscopes, multimeters, and other diagnostic tools in electrical engineering.
-          </p>
-          <p><i class="fa-solid fa-circle-check"></i> <b> Industry-Relevant Skills </b> – Prepares learners for careers
-            in
-            electrical engineering, automation, and electronics repair with practical knowledge.
-          </p>
-        </div>
-
-        <div class="col-md-6">
-          <h2>Machinery Operation Training</h2>
-          <p><i class="fa-solid fa-circle-check"></i> <b> Understanding Machine Components & Functions</b> – Covers the
-            parts, controls, and working mechanisms of various industrial machines.</p>
-          <p><i class="fa-solid fa-circle-check"></i> <b> Safety Protocols & Hazard Prevention</b> – Emphasizes safety
-            procedures, emergency handling, and compliance with industry regulations.</p>
-          <p><i class="fa-solid fa-circle-check"></i> <b> Hands-on Machine Handling</b> – Provides practical experience
-            in
-            operating, maintaining, and troubleshooting machinery.</p>
-          <p><i class="fa-solid fa-circle-check"></i> <b> Efficiency & Performance Optimization </b> – Teaches
-            techniques
-            to improve machine efficiency, reduce downtime, and enhance productivity.</p>
-          <p><i class="fa-solid fa-circle-check"></i> <b> Maintenance & Troubleshooting</b> – Covers routine
-            maintenance,
-            diagnosing common issues, and ensuring machine longevity.</p>
-        </div>
-        <div class="col-md-6">
-          <img src="assets/image/resource/skill3.jpg" class="img-fluid rounded w-100"
-            alt="Machinery Operation Training">
-        </div>
-
-        <div class="col-md-6">
-          <img src="assets/image/resource/skill4.jpg" class="img-fluid rounded w-100" alt="BPO & Telecaller Training">
-        </div>
-        <div class="col-md-6">
-          <h2>BPO & Telecaller Training</h2>
-          <p><i class="fa-solid fa-circle-check"></i> <b> Communication & Soft Skills Development</b> – Focuses on
-            improving spoken English, active listening, and professional etiquette for effective customer interactions.
-          </p>
-          <p><i class="fa-solid fa-circle-check"></i> <b> Call Handling Techniques</b> – Teaches inbound and outbound
-            calling strategies, script adherence, and dealing with difficult customers.</p>
-          <p><i class="fa-solid fa-circle-check"></i> <b> Sales & Customer Service Training</b> – Covers persuasive
-            communication, lead generation, and customer relationship management (CRM) techniques.</p>
-          <p><i class="fa-solid fa-circle-check"></i> <b> Technical & Process Knowledge </b> – Provides an understanding
-            of industry-specific processes, data entry, and using call center software.</p>
-          <p><i class="fa-solid fa-circle-check"></i> <b> Accent & Voice Modulation Training </b> – Enhances clarity,
-            tone, and pronunciation to improve communication with global clients.</p>
-        </div>
-
-        <div class="col-md-6">
-          <h2>Solar Technician Skills</h2>
-          <p><i class="fa-solid fa-circle-check"></i> <b> Solar Panel Installation & Maintenance</b> – Training on
-            setting up, wiring, and maintaining photovoltaic (PV) systems for residential and commercial use.</p>
-          <p><i class="fa-solid fa-circle-check"></i> <b> Electrical & Wiring Knowledge </b> – Understanding electrical
-            circuits, connections, and safety measures related to solar power systems.</p>
-          <p><i class="fa-solid fa-circle-check"></i> <b> System Troubleshooting & Repairs</b> – Identifying and fixing
-            common issues in solar panels, inverters, and battery storage systems.</p>
-          <p><i class="fa-solid fa-circle-check"></i> <b> Energy Efficiency & Optimization</b> – Learning to maximize
-            solar power output and improve system performance.</p>
-          <p><i class="fa-solid fa-circle-check"></i> <b> Safety & Compliance Standards</b> – Following industry
-            regulations, environmental guidelines, and safety protocols for solar energy systems.</p>
-        </div>
-        <div class="col-md-6">
-          <img src="assets/image/resource/skill5.jpg" class="img-fluid rounde w-100" alt="Solar Technician Skills">
-        </div>
-
       </div>
+
+      <!-- Card-2  -->
+      <div class="row mb-4">
+        <div class="col-lg-6 col-md-12 order-2 order-lg-1 mt-3 mt-lg-0">
+          <div>
+            <h2>Computer Skills Training </h2>
+            <p><i class="fa-solid fa-circle-check"></i> <b> Basic Computer Literacy</b> – Understanding how to use a
+              computer, operating systems (Windows, macOS), and basic troubleshooting.</p>
+            <p><i class="fa-solid fa-circle-check"></i> <b> Typing & Data Entry</b> – Improving typing speed and
+              accuracy,
+              using tools like MS Word and Excel for data entry.</p>
+            <p><i class="fa-solid fa-circle-check"></i> <b> Microsoft Office & Google Workspace </b> – Learning MS Word,
+              Excel, PowerPoint, and Google Docs, Sheets, and Slides for office tasks.</p>
+            <p><i class="fa-solid fa-circle-check"></i> <b> Cybersecurity Awareness </b> – Understanding online
+              security,
+              avoiding phishing scams, and creating strong passwords.</p>
+            <p><i class="fa-solid fa-circle-check"></i> <b> Basic Digital Communication</b> – Using Zoom, Google Meet,
+              and
+              other collaboration tools for virtual meetings and teamwork.</p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12 order-1 order-lg-2">
+          <div>
+            <img src="assets/image/resource/women1.jpeg" class="img-fluid rounded w-100 m-auto"
+              alt="Computer Skills Training">
+          </div>
+        </div>
+      </div>
+
+      <!-- Card-3  -->
+      <div class="row mb-4">
+        <div class="col-lg-6 col-md-12">
+          <div>
+            <img src="assets/image/resource/skill2.jpg" class="img-fluid rounded w-100 m-auto"
+              alt="Electro Tech Training">
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12 mt-3 mt-lg-0">
+          <div>
+            <h2>Electro Tech Training</h2>
+            <p><i class="fa-solid fa-circle-check"></i> <b> Fundamentals of Electrical and Electronics </b> – Covers
+              basic
+              concepts like circuits, voltage, current, resistance, and electronic components.</p>
+            <p><i class="fa-solid fa-circle-check"></i> <b> Hands-on Practical Training</b> – Focuses on real-world
+              applications, including wiring, soldering, and troubleshooting electrical systems.</p>
+            <p><i class="fa-solid fa-circle-check"></i> <b> Safety and Compliance</b> – Teaches important safety
+              measures,
+              electrical codes, and regulations to prevent hazards.
+            </p>
+            <p><i class="fa-solid fa-circle-check"></i> <b> Use of Modern Tools & Equipment</b> – Provides training on
+              using
+              oscilloscopes, multimeters, and other diagnostic tools in electrical engineering.
+            </p>
+            <p><i class="fa-solid fa-circle-check"></i> <b> Industry-Relevant Skills </b> – Prepares learners for
+              careers
+              in
+              electrical engineering, automation, and electronics repair with practical knowledge.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card-4  -->
+      <div class="row mb-4">
+        <div class="col-lg-6 col-md-12 order-2 order-lg-1 mt-3 mt-lg-0">
+          <div>
+            <h2>Machinery Operation Training</h2>
+            <p><i class="fa-solid fa-circle-check"></i> <b> Understanding Machine Components & Functions</b> – Covers
+              the
+              parts, controls, and working mechanisms of various industrial machines.</p>
+            <p><i class="fa-solid fa-circle-check"></i> <b> Safety Protocols & Hazard Prevention</b> – Emphasizes safety
+              procedures, emergency handling, and compliance with industry regulations.</p>
+            <p><i class="fa-solid fa-circle-check"></i> <b> Hands-on Machine Handling</b> – Provides practical
+              experience
+              in
+              operating, maintaining, and troubleshooting machinery.</p>
+            <p><i class="fa-solid fa-circle-check"></i> <b> Efficiency & Performance Optimization </b> – Teaches
+              techniques
+              to improve machine efficiency, reduce downtime, and enhance productivity.</p>
+            <p><i class="fa-solid fa-circle-check"></i> <b> Maintenance & Troubleshooting</b> – Covers routine
+              maintenance,
+              diagnosing common issues, and ensuring machine longevity.</p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12 order-1 order-lg-2">
+          <div>
+            <img src="assets/image/resource/skill3.jpg" class="img-fluid rounded w-100 m-auto"
+              alt="Machinery Operation Training">
+          </div>
+        </div>
+      </div>
+
+      <!-- Card-5  -->
+      <div class="row mb-4">
+        <div class="col-lg-6 col-md-12">
+          <div>
+            <img src="assets/image/resource/skill4.jpg" class="img-fluid rounded w-100 m-auto"
+              alt="BPO & Telecaller Training">
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12 mt-3 mt-lg-0">
+          <div>
+            <h2>BPO & Telecaller Training</h2>
+            <p><i class="fa-solid fa-circle-check"></i> <b> Communication & Soft Skills Development</b> – Focuses on
+              improving spoken English, active listening, and professional etiquette for effective customer
+              interactions.
+            </p>
+            <p><i class="fa-solid fa-circle-check"></i> <b> Call Handling Techniques</b> – Teaches inbound and outbound
+              calling strategies, script adherence, and dealing with difficult customers.</p>
+            <p><i class="fa-solid fa-circle-check"></i> <b> Sales & Customer Service Training</b> – Covers persuasive
+              communication, lead generation, and customer relationship management (CRM) techniques.</p>
+            <p><i class="fa-solid fa-circle-check"></i> <b> Technical & Process Knowledge </b> – Provides an
+              understanding
+              of industry-specific processes, data entry, and using call center software.</p>
+            <p><i class="fa-solid fa-circle-check"></i> <b> Accent & Voice Modulation Training </b> – Enhances clarity,
+              tone, and pronunciation to improve communication with global clients.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card-6  -->
+      <div class="row mb-4">
+        <div class="col-lg-6 col-md-12 order-2 order-lg-1 mt-3 mt-lg-0">
+          <div>
+            <h2>Solar Technician Skills</h2>
+            <p><i class="fa-solid fa-circle-check"></i> <b> Solar Panel Installation & Maintenance</b> – Training on
+              setting up, wiring, and maintaining photovoltaic (PV) systems for residential and commercial use.</p>
+            <p><i class="fa-solid fa-circle-check"></i> <b> Electrical & Wiring Knowledge </b> – Understanding
+              electrical
+              circuits, connections, and safety measures related to solar power systems.</p>
+            <p><i class="fa-solid fa-circle-check"></i> <b> System Troubleshooting & Repairs</b> – Identifying and
+              fixing
+              common issues in solar panels, inverters, and battery storage systems.</p>
+            <p><i class="fa-solid fa-circle-check"></i> <b> Energy Efficiency & Optimization</b> – Learning to maximize
+              solar power output and improve system performance.</p>
+            <p><i class="fa-solid fa-circle-check"></i> <b> Safety & Compliance Standards</b> – Following industry
+              regulations, environmental guidelines, and safety protocols for solar energy systems.</p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12 order-1 order-lg-2">
+          <div>
+            <img src="assets/image/resource/skill5.jpg" class="img-fluid rounde w-100 m-auto"
+              alt="Solar Technician Skills">
+          </div>
+        </div>
+      </div>
+
     </div>
   </section>
 
   <footer class="footer-sec py-5">
     <div class="container">
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-3">
           <div>
             <div>
               <img src="assets/image/logo1.jpeg" alt="logo" class="ft-logo">
@@ -307,11 +369,11 @@
           <div class="">
             <h3 class="footer-title">Quick Links</h3>
             <ul>
-              <li><a href="#" class="text-white">Home</a></li>
-              <li><a href="#" class="text-white">About Us</a></li>
-              <li><a href="#" class="text-white">Our Mission</a></li>
-              <li><a href="#" class="text-white">Our Impact</a></li>
-              <li><a href="#" class="text-white">History</a></li>
+              <li><a href="aboutus.html" class="text-white">About Us</a></li>
+              <li><a href="aboutus.html" class="text-white">Our Mission</a></li>
+              <li><a href="donation-faqs.html" class="text-white">donation faqs</a></li>
+              <li><a href="termcondition.html" class="text-white">Terms & Conditions</a></li>
+              <li><a href="privacy-policy.html" class="text-white">Privacy Policy</a></li>
             </ul>
           </div>
         </div>
@@ -319,11 +381,13 @@
           <div class="">
             <h3 class="footer-title">Programs</h3>
             <ul>
-              <li><a href="#" class="text-white">Education</a></li>
-              <li><a href="#" class="text-white">Women Empowerment</a></li>
-              <li><a href="#" class="text-white">Health & Hygiene</a></li>
-              <li><a href="#" class="text-white">Skill Development</a></li>
-              <li><a href="#" class="text-white">Environmental Awarenes</a></li>
+              <li><a href="education.html" class="text-white">Education for All</a></li>
+              <li><a href="women.html" class="text-white">Women Empowerment</a></li>
+              <li><a href="skill-development.html" class="text-white">Skill Development</a></li>
+              <li><a href="gurukul.html" class="text-white">Gurukul</a></li>
+              <li><a href="school-development.html" class="text-white">Schools Development</a></li>
+              <li><a href="spirituality.html" class="text-white">Spirituality</a></li>
+              <li><a href="disabled-people.html" class="text-white">Disabled people</a></li>
             </ul>
           </div>
         </div>
@@ -331,23 +395,21 @@
           <div class="">
             <h3 class="footer-title">Donation</h3>
             <ul>
-              <li><a href="#" class="text-white">One-Time Donation</a></li>
-              <li><a href="#" class="text-white">Monthly Giving</a></li>
-              <li><a href="#" class="text-white">Corporate Sponsorship</a></li>
-              <li><a href="#" class="text-white">Crowdfunding</a></li>
+              <li><a href="donation.html" class="text-white">One-Time Donation</a></li>
+              <li><a href="donation.html" class="text-white">Monthly Giving</a></li>
             </ul>
           </div>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-3">
           <div class="">
             <h3 class="footer-title">Contact</h3>
             <ul>
-              <li><a href="#" class="text-white"><i class="fa-solid fa-phone"></i> 7896321548</a></li>
+              <li><a href="#" class="text-white"><i class="fa-solid fa-phone"></i> 7760776677</a></li>
               <li><a href="#" class="text-white"><i class="fa-solid fa-envelope"></i>
                   samskaara@gmail.com</a></li>
-              <li><a href="#" class="text-white"><i class="fa-solid fa-location-dot"></i> Plot No –
-                  12,(SCR) 2nd Floor
-                  Kharvel Nagar, Unit – 3, Behind BDA Office, 751001</a></li>
+              <li><a href="#" class="text-white"><i class="fa-solid fa-location-dot"></i> No 95, 1 st Main
+                  Road, Block 3, BEML Layout Stage 4, Rajarajeshwari Nagara, Bangalore-560098,
+                  Karnataka</a></li>
             </ul>
           </div>
         </div>

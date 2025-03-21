@@ -26,14 +26,18 @@
 <body>
     <!-- Top Navbar  -->
     <div class="py-2" style="background-color: #0B8B68;">
-        <div class="container d-flex justify-content-between align-items-center">
-            <div class="d-flex align-items-center gap-3">
-                <span><i class="fa-solid fa-envelope text-white"></i> <a href=""
-                        class="text-white text-decoration-none"> samskaara@gmail.com</a></span>
-                <span><i class="fa-solid fa-phone text-white"></i> <a href="tell:7760776677"
-                        class="text-white text-decoration-none">7760776677</a></span>
+        <div class="container top-nav ">
+            <div class="hideIcon">
+                <div class="d-flex align-items-center gap-3">
+                    <span><i class="fa-solid fa-envelope text-white"></i> <a href=""
+                            class="text-white text-decoration-none"> samskaara@gmail.com</a></span>
+                    <span><i class="fa-solid fa-phone text-white"></i> <a href="tel:7760776677"
+                            class="text-white text-decoration-none">7760776677</a></span>
+                </div>
             </div>
             <ul class="list-unstyled m-0 d-flex align-items-center gap-4 justify-content-center">
+                <li class="showIcon"><a href="#"><i class="fa-solid fa-envelope text-white"></i></a></li>
+                <li class="showIcon"><a href="#"><i class="fa-solid fa-phone text-white"></i></a></li>
                 <li><a href="#"><i class="fa-brands fa-facebook-f text-white"></i></a></li>
                 <li><a href="#"><i class="fa-brands fa-instagram text-white"></i></a></li>
                 <li><a href="#"><i class="fa-brands fa-linkedin-in text-white"></i></a></li>
@@ -50,11 +54,10 @@
             <div class="nav__data">
                 <a href="index.html" class="nav__logo">
                     <img src="assets/image/logo1.jpeg" alt="logo">
-                    <!-- <h3>NGO</h3> -->
                 </a>
                 <div class="nav__toggle" id="nav-toggle">
-                    <i class="ri-menu-line nav__toggle-menu"></i>
-                    <i class="ri-close-line nav__toggle-close"></i>
+                    <i class="fa-solid fa-bars nav__toggle-menu"></i>
+                    <i class="fa-solid fa-xmark nav__toggle-close"></i>
                 </div>
             </div>
 
@@ -172,12 +175,12 @@
     <section class="py-5" style="background-color: aliceblue;">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-lg-6 col-md-12 ">
                     <div>
-                        <img src="assets/image/resource/blog3.jpeg" alt="" class="w-100">
+                        <img src="assets/image/resource/blog3.jpeg" alt="blog" class="w-100">
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-lg-6 col-md-12 mt-4 mt-lg-0">
                     <div class="mt-2">
                         <h2>The Power of Volunteering</h2>
                         <p>Volunteering is a powerful way to give back, whether by educating children, aiding in
@@ -236,7 +239,7 @@
     <footer class="footer-sec py-5">
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div>
                         <div>
                             <img src="assets/image/logo1.jpeg" alt="logo" class="ft-logo">
@@ -281,7 +284,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-3">
                     <div class="">
                         <h3 class="footer-title">Contact</h3>
                         <ul>

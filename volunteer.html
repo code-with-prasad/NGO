@@ -25,14 +25,18 @@
 <body>
     <!-- Top Navbar  -->
     <div class="py-2" style="background-color: #0B8B68;">
-        <div class="container d-flex justify-content-between align-items-center">
-            <div class="d-flex align-items-center gap-3">
-                <span><i class="fa-solid fa-envelope text-white"></i> <a href=""
-                        class="text-white text-decoration-none"> samskaara@gmail.com</a></span>
-                <span><i class="fa-solid fa-phone text-white"></i> <a href="tell:7760776677"
-                        class="text-white text-decoration-none">7760776677</a></span>
+        <div class="container top-nav ">
+            <div class="hideIcon">
+                <div class="d-flex align-items-center gap-3">
+                    <span><i class="fa-solid fa-envelope text-white"></i> <a href=""
+                            class="text-white text-decoration-none"> samskaara@gmail.com</a></span>
+                    <span><i class="fa-solid fa-phone text-white"></i> <a href="tel:7760776677"
+                            class="text-white text-decoration-none">7760776677</a></span>
+                </div>
             </div>
             <ul class="list-unstyled m-0 d-flex align-items-center gap-4 justify-content-center">
+                <li class="showIcon"><a href="#"><i class="fa-solid fa-envelope text-white"></i></a></li>
+                <li class="showIcon"><a href="#"><i class="fa-solid fa-phone text-white"></i></a></li>
                 <li><a href="#"><i class="fa-brands fa-facebook-f text-white"></i></a></li>
                 <li><a href="#"><i class="fa-brands fa-instagram text-white"></i></a></li>
                 <li><a href="#"><i class="fa-brands fa-linkedin-in text-white"></i></a></li>
@@ -49,11 +53,10 @@
             <div class="nav__data">
                 <a href="index.html" class="nav__logo">
                     <img src="assets/image/logo1.jpeg" alt="logo">
-                    <!-- <h3>NGO</h3> -->
                 </a>
                 <div class="nav__toggle" id="nav-toggle">
-                    <i class="ri-menu-line nav__toggle-menu"></i>
-                    <i class="ri-close-line nav__toggle-close"></i>
+                    <i class="fa-solid fa-bars nav__toggle-menu"></i>
+                    <i class="fa-solid fa-xmark nav__toggle-close"></i>
                 </div>
             </div>
 
@@ -173,8 +176,8 @@
             <div>
                 <h2>Volunteer Opportunities</h2>
             </div>
-            <div class="row mt-4">
-                <div class="col-md-4">
+            <div class="row gy-4 mt-4">
+                <div class="col-lg-4 col-md-6">
                     <div class="p-4 shadow">
                         <h5 class="text-green">Teaching Children</h5>
                         <p>Education is a powerful tool that can break the cycle of poverty and open doors to a brighter
@@ -183,7 +186,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-lg-4 col-md-6">
                     <div class="p-4 shadow">
                         <h5 class="text-green">Fundraising & Campaigns</h5>
                         <p>Raising funds and spreading awareness are vital for our NGO’s mission. As a fundraising
@@ -191,7 +194,7 @@
                             efforts will support education, healthcare, and essential services for those in need.</p>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-lg-4 col-md-6">
                     <div class="p-4 shadow">
                         <h5 class="text-green">Event Organization</h5>
                         <p>Events play a crucial role in spreading awareness, engaging communities, and raising support
@@ -205,14 +208,14 @@
 
     <section class="py-5" style="background-color: aliceblue;">
         <div class="container">
-            <div class="row">
-                <div class="col-md-5 d-flex">
+            <div class="row gy-4">
+                <div class="col-lg-5 col-md-12 d-flex">
                     <div class="m-auto">
                         <img src="assets/image/resource/volunteer.png" alt="volunteer" class="w-100">
                         <!-- <img src="assets/image/resource/volunteer.jpg" alt="volunteer" class="w-100"> -->
                     </div>
                 </div>
-                <div class="col-md-7">
+                <div class="col-lg-7 col-md-12">
                     <div class="p-4 rounded" style="background-color: #F5F0E2;">
                         <form>
                             <div class="row">
@@ -404,7 +407,7 @@
     <footer class="footer-sec py-5">
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div>
                         <div>
                             <img src="assets/image/logo1.jpeg" alt="logo" class="ft-logo">
@@ -418,11 +421,11 @@
                     <div class="">
                         <h3 class="footer-title">Quick Links</h3>
                         <ul>
-                            <li><a href="#" class="text-white">Home</a></li>
-                            <li><a href="#" class="text-white">About Us</a></li>
-                            <li><a href="#" class="text-white">Our Mission</a></li>
-                            <li><a href="#" class="text-white">Our Impact</a></li>
-                            <li><a href="#" class="text-white">History</a></li>
+                            <li><a href="aboutus.html" class="text-white">About Us</a></li>
+                            <li><a href="aboutus.html" class="text-white">Our Mission</a></li>
+                            <li><a href="donation-faqs.html" class="text-white">donation faqs</a></li>
+                            <li><a href="termcondition.html" class="text-white">Terms & Conditions</a></li>
+                            <li><a href="privacy-policy.html" class="text-white">Privacy Policy</a></li>
                         </ul>
                     </div>
                 </div>
@@ -430,11 +433,13 @@
                     <div class="">
                         <h3 class="footer-title">Programs</h3>
                         <ul>
-                            <li><a href="#" class="text-white">Education</a></li>
-                            <li><a href="#" class="text-white">Women Empowerment</a></li>
-                            <li><a href="#" class="text-white">Health & Hygiene</a></li>
-                            <li><a href="#" class="text-white">Skill Development</a></li>
-                            <li><a href="#" class="text-white">Environmental Awarenes</a></li>
+                            <li><a href="education.html" class="text-white">Education for All</a></li>
+                            <li><a href="women.html" class="text-white">Women Empowerment</a></li>
+                            <li><a href="skill-development.html" class="text-white">Skill Development</a></li>
+                            <li><a href="gurukul.html" class="text-white">Gurukul</a></li>
+                            <li><a href="school-development.html" class="text-white">Schools Development</a></li>
+                            <li><a href="spirituality.html" class="text-white">Spirituality</a></li>
+                            <li><a href="disabled-people.html" class="text-white">Disabled people</a></li>
                         </ul>
                     </div>
                 </div>
@@ -442,23 +447,21 @@
                     <div class="">
                         <h3 class="footer-title">Donation</h3>
                         <ul>
-                            <li><a href="#" class="text-white">One-Time Donation</a></li>
-                            <li><a href="#" class="text-white">Monthly Giving</a></li>
-                            <li><a href="#" class="text-white">Corporate Sponsorship</a></li>
-                            <li><a href="#" class="text-white">Crowdfunding</a></li>
+                            <li><a href="donation.html" class="text-white">One-Time Donation</a></li>
+                            <li><a href="donation.html" class="text-white">Monthly Giving</a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-3">
                     <div class="">
                         <h3 class="footer-title">Contact</h3>
                         <ul>
-                            <li><a href="#" class="text-white"><i class="fa-solid fa-phone"></i> 7896321548</a></li>
+                            <li><a href="#" class="text-white"><i class="fa-solid fa-phone"></i> 7760776677</a></li>
                             <li><a href="#" class="text-white"><i class="fa-solid fa-envelope"></i>
                                     samskaara@gmail.com</a></li>
-                            <li><a href="#" class="text-white"><i class="fa-solid fa-location-dot"></i> Plot No –
-                                    12,(SCR) 2nd Floor
-                                    Kharvel Nagar, Unit – 3, Behind BDA Office, 751001</a></li>
+                            <li><a href="#" class="text-white"><i class="fa-solid fa-location-dot"></i> No 95, 1 st Main
+                                    Road, Block 3, BEML Layout Stage 4, Rajarajeshwari Nagara, Bangalore-560098,
+                                    Karnataka</a></li>
                         </ul>
                     </div>
                 </div>

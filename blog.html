@@ -25,14 +25,18 @@
 <body>
     <!-- Top Navbar  -->
     <div class="py-2" style="background-color: #0B8B68;">
-        <div class="container d-flex justify-content-between align-items-center">
-            <div class="d-flex align-items-center gap-3">
-                <span><i class="fa-solid fa-envelope text-white"></i> <a href=""
-                        class="text-white text-decoration-none"> samskaara@gmail.com</a></span>
-                <span><i class="fa-solid fa-phone text-white"></i> <a href="tell:7760776677"
-                        class="text-white text-decoration-none">7760776677</a></span>
+        <div class="container top-nav ">
+            <div class="hideIcon">
+                <div class="d-flex align-items-center gap-3">
+                    <span><i class="fa-solid fa-envelope text-white"></i> <a href=""
+                            class="text-white text-decoration-none"> samskaara@gmail.com</a></span>
+                    <span><i class="fa-solid fa-phone text-white"></i> <a href="tel:7760776677"
+                            class="text-white text-decoration-none">7760776677</a></span>
+                </div>
             </div>
             <ul class="list-unstyled m-0 d-flex align-items-center gap-4 justify-content-center">
+                <li class="showIcon"><a href="#"><i class="fa-solid fa-envelope text-white"></i></a></li>
+                <li class="showIcon"><a href="#"><i class="fa-solid fa-phone text-white"></i></a></li>
                 <li><a href="#"><i class="fa-brands fa-facebook-f text-white"></i></a></li>
                 <li><a href="#"><i class="fa-brands fa-instagram text-white"></i></a></li>
                 <li><a href="#"><i class="fa-brands fa-linkedin-in text-white"></i></a></li>
@@ -49,11 +53,10 @@
             <div class="nav__data">
                 <a href="index.html" class="nav__logo">
                     <img src="assets/image/logo1.jpeg" alt="logo">
-                    <!-- <h3>NGO</h3> -->
                 </a>
                 <div class="nav__toggle" id="nav-toggle">
-                    <i class="ri-menu-line nav__toggle-menu"></i>
-                    <i class="ri-close-line nav__toggle-close"></i>
+                    <i class="fa-solid fa-bars nav__toggle-menu"></i>
+                    <i class="fa-solid fa-xmark nav__toggle-close"></i>
                 </div>
             </div>
 
@@ -171,7 +174,8 @@
     <section class="py-5" style="background-color: aliceblue;">
         <div class="container">
             <div class="row gy-3">
-                <div class="col-md-4">
+                <!-- Card 1 -->
+                <div class="col-lg-4 col-md-6">
                     <div class="card blog-card shadow-sm">
                         <img src="assets/image/resource/blog3.jpeg" class="card-img-top" alt="Volunteer">
                         <div class="card-body">
@@ -186,11 +190,12 @@
                     </div>
                 </div>
 
-                <div class="col-md-4">
+                <!-- Card 2 -->
+                <div class="col-lg-4 col-md-6">
                     <div class="card blog-card shadow-sm">
                         <img src="assets/image/resource/spiritual3.jpg" class="card-img-top" alt="Volunteer">
                         <div class="card-body">
-                            <h5 class="card-title fw-bold">Our Gurukul Program at Samskaara</h5>
+                            <h5 class="card-title fw-bold">Our Gurukul Program</h5>
                             <p class="text-muted">July 26, 2024</p>
                             <p class="card-text">At Samskaara, our Gurukul Program integrates ancient wisdom with modern
                                 education to create well-rounded individuals.</p>
@@ -200,23 +205,22 @@
                     </div>
                 </div>
 
-                <div class="col-md-4">
+                <!-- Card 3 -->
+                <div class="col-lg-4 col-md-6">
                     <div class="card blog-card shadow-sm">
                         <img src="assets/image/resource/spirituality.jpg" class="card-img-top" alt="Volunteer">
                         <div class="card-body">
                             <h5 class="card-title fw-bold">Soul Awakening Journey</h5>
                             <p class="text-muted">July 26, 2024</p>
-                            <p class="card-text">Spirituality is the essence of life that connects us with our inner
-                                self, nature, and the universe. At Samskaara, we believe that true happiness and peace
-                                come from within.</p>
+                            <p class="card-text">Spirituality connects us to our inner self, nature, and the universe, bringing true happiness and peace within.</p>
                             <a href="blog-details.html" class="read-more">Read More <i
                                     class="fa-solid fa-arrow-right-long"></i></a>
                         </div>
                     </div>
                 </div>
 
-                <!-- Card 2 -->
-                <div class="col-md-4">
+                <!-- Card 4 -->
+                <div class="col-lg-4 col-md-6">
                     <div class="card blog-card shadow-sm">
                         <img src="assets/image/resource/blog4.jpeg" class="card-img-top" alt="Save a Child">
                         <div class="card-body">
@@ -230,8 +234,8 @@
                         </div>
                     </div>
                 </div>
-                <!-- Card 3 -->
-                <div class="col-md-4">
+                <!-- Card 5 -->
+                <div class="col-lg-4 col-md-6">
                     <div class="card blog-card shadow-sm">
                         <img src="assets/image/resource/blog1.jpeg" class="card-img-top" alt="Children Care">
                         <div class="card-body">
@@ -246,46 +250,28 @@
                     </div>
                 </div>
 
-                <div class="col-md-4">
-                    <div class="card blog-card shadow-sm">
-                        <img src="assets/image/resource/blog1.jpeg" class="card-img-top" alt="Volunteer">
-                        <div class="card-body">
-                            <h5 class="card-title fw-bold"> A Step Towards a Better Life</h5>
-                            <p class="text-muted">July 26, 2024</p>
-                            <p class="card-text">Good health is the foundation of a strong community. Discover our
-                                initiatives in
-                                providing free health camps, menstrual hygiene awareness, and sanitation facilities in
-                                rural areas.</p>
-                            <a href="blog-details.html" class="read-more">Read More <i
-                                    class="fa-solid fa-arrow-right-long"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="card blog-card shadow-sm">
-                        <img src="assets/image/resource/blog2.jpeg" class="card-img-top" alt="Save a Child">
-                        <div class="card-body">
-                            <h5 class="card-title fw-bold">Breaking Barriers and Building Futures</h5>
-                            <p class="text-muted">Auguest 26, 2024</p> Empowering women leads to a stronger society.
-                            Learn how we
-                            support women's education, skill development, and financial independence to create a
-                            brighter future.</p>
-                            <a href="blog-details.html" class="read-more">Read More <i
-                                    class="fa-solid fa-arrow-right-long"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
+                <!-- Card 6 -->
+                <div class="col-lg-4 col-md-6">
                     <div class="card blog-card shadow-sm">
                         <img src="assets/image/resource/blog5.jpeg" class="card-img-top" alt="Children Care">
                         <div class="card-body">
                             <h5 class="card-title fw-bold">Changing Lives, One at a Time</h5>
                             <p class="text-muted">Septembar 26, 2024</p>
-                            <p class="card-text">Our NGO has transformed lives by providing education to underprivileged
-                                children and
-                                essential healthcare to families in need.</p>
+                            <p class="card-text">We empower underprivileged children with education and provide essential healthcare to families in need.</p>
+                            <a href="blog-details.html" class="read-more">Read More <i
+                                    class="fa-solid fa-arrow-right-long"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 7 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card blog-card shadow-sm">
+                        <img src="assets/image/resource/blog2.jpeg" class="card-img-top" alt="Save a Child">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Empowering Change, Shaping Futures</h5>
+                            <p class="text-muted">Auguest 26, 2024</p>
+                            <p>Empowering women through education, skills, and independence builds a stronger, brighter future.</p>
                             <a href="blog-details.html" class="read-more">Read More <i
                                     class="fa-solid fa-arrow-right-long"></i></a>
                         </div>
@@ -299,7 +285,7 @@
     <footer class="footer-sec py-5">
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div>
                         <div>
                             <img src="assets/image/logo1.jpeg" alt="logo" class="ft-logo">
@@ -344,7 +330,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-3">
                     <div class="">
                         <h3 class="footer-title">Contact</h3>
                         <ul>

@@ -23,32 +23,25 @@
 </head>
 
 <body>
-    <!-- Top Navbar  -->
-    <div class="py-2" style="background-color: #0b8b68">
-        <div class="container d-flex justify-content-between align-items-center">
-            <div class="d-flex align-items-center gap-3">
-                <span><i class="fa-solid fa-envelope text-white"></i>
-                    <a href="" class="text-white text-decoration-none">
-                        samskaara@gmail.com</a></span>
-                <span><i class="fa-solid fa-phone text-white"></i>
-                    <a href="tell:7760776677" class="text-white text-decoration-none">7760776677</a></span>
+     <!-- Top Navbar  -->
+     <div class="py-2" style="background-color: #0B8B68;">
+        <div class="container top-nav ">
+            <div class="hideIcon">
+                <div class="d-flex align-items-center gap-3">
+                    <span><i class="fa-solid fa-envelope text-white"></i> <a href=""
+                            class="text-white text-decoration-none"> samskaara@gmail.com</a></span>
+                    <span><i class="fa-solid fa-phone text-white"></i> <a href="tel:7760776677"
+                            class="text-white text-decoration-none">7760776677</a></span>
+                </div>
             </div>
             <ul class="list-unstyled m-0 d-flex align-items-center gap-4 justify-content-center">
-                <li>
-                    <a href="#"><i class="fa-brands fa-facebook-f text-white"></i></a>
-                </li>
-                <li>
-                    <a href="#"><i class="fa-brands fa-instagram text-white"></i></a>
-                </li>
-                <li>
-                    <a href="#"><i class="fa-brands fa-linkedin-in text-white"></i></a>
-                </li>
-                <li>
-                    <a href="#"><i class="fa-brands fa-x-twitter text-white"></i></a>
-                </li>
-                <li>
-                    <a href="#"><i class="fa-brands fa-youtube text-white"></i></a>
-                </li>
+                <li class="showIcon"><a href="#"><i class="fa-solid fa-envelope text-white"></i></a></li>
+                <li class="showIcon"><a href="#"><i class="fa-solid fa-phone text-white"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-facebook-f text-white"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram text-white"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin-in text-white"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-x-twitter text-white"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-youtube text-white"></i></a></li>
             </ul>
         </div>
     </div>
@@ -59,12 +52,11 @@
         <nav class="nav container">
             <div class="nav__data">
                 <a href="index.html" class="nav__logo">
-                    <img src="assets/image/logo1.jpeg" alt="logo" />
-                    <!-- <h3>NGO</h3> -->
+                    <img src="assets/image/logo1.jpeg" alt="logo">
                 </a>
                 <div class="nav__toggle" id="nav-toggle">
-                    <i class="ri-menu-line nav__toggle-menu"></i>
-                    <i class="ri-close-line nav__toggle-close"></i>
+                    <i class="fa-solid fa-bars nav__toggle-menu"></i>
+                    <i class="fa-solid fa-xmark nav__toggle-close"></i>
                 </div>
             </div>
 
@@ -110,6 +102,7 @@
                                             <a href="school-development.html" class="dropdown__link">Schools
                                                 Development</a>
                                         </li>
+
                                     </ul>
                                 </div>
                             </div>
@@ -181,23 +174,29 @@
     <!-- Board of trustees Section   -->
     <section class="boardTrustees-sec py-5">
         <div class="container">
-            <p>At Samskaara NGO, our Board of Trustees is the backbone of our organization, providing leadership, vision, and governance to ensure that we fulfill our mission of social welfare and sustainable development. The trustees bring a wealth of experience, dedication, and expertise from diverse fields, working collectively to uplift communities and create meaningful change.</p>
-            <p>We believe that strong leadership, integrity, and transparency are essential for an NGO to function effectively. Our trustees are responsible for setting strategic goals, overseeing the implementation of programs, and ensuring financial accountability. They guide our organization with a deep commitment to empowering underprivileged communities and fostering holistic development.</p>
-            <div class="row mt-4">
-                <div class="col-md-3">
-                    <div class="board-member">
+            <p>At Samskaara NGO, our Board of Trustees is the backbone of our organization, providing leadership,
+                vision, and governance to ensure that we fulfill our mission of social welfare and sustainable
+                development. The trustees bring a wealth of experience, dedication, and expertise from diverse fields,
+                working collectively to uplift communities and create meaningful change.</p>
+            <p>We believe that strong leadership, integrity, and transparency are essential for an NGO to function
+                effectively. Our trustees are responsible for setting strategic goals, overseeing the implementation of
+                programs, and ensuring financial accountability. They guide our organization with a deep commitment to
+                empowering underprivileged communities and fostering holistic development.</p>
+            <div class="row gy-5 mt-4">
+                <div class="col-lg-3 col-md-4 col-sm-12 d-flex">
+                    <div class="board-member m-auto">
                         <img src="assets/image/resource/hi.jpeg" alt="board-member" class="w-100">
                     </div>
                     <span></span>
                 </div>
-                <div class="col-md-3">
-                    <div class="board-member">
+                <div class="col-lg-3 col-md-4 col-sm-12 d-flex">
+                    <div class="board-member m-auto">
                         <img src="assets/image/resource/cofounder.jpeg" alt="board-member" class="w-100">
                         <h5 class="text-center mt-2">C.R. Ashwini</h5>
                     </div>
                 </div>
-                <div class="col-md-3">
-                    <div class="board-member">
+                <div class="col-lg-3 col-md-4 col-sm-12 d-flex">
+                    <div class="board-member m-auto">
                         <img src="assets/image/resource/cofounder1.jpg" alt="board-member" class="w-100">
                         <h5 class="text-center mt-2">Akshatha gowda</h5>
                     </div>
@@ -209,16 +208,14 @@
     <footer class="footer-sec py-5">
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div>
                         <div>
-                            <img src="assets/image/logo1.jpeg" alt="logo" class="ft-logo" />
+                            <img src="assets/image/logo1.jpeg" alt="logo" class="ft-logo">
                         </div>
-                        <p class="text-white">
-                            Samskaara is dedicated to empowering underprivileged communities
-                            through education, healthcare, and social welfare programs. Join
-                            us in making a difference.
-                        </p>
+                        <p class="text-white">Samskaara is dedicated to empowering underprivileged communities through
+                            education,
+                            healthcare, and social welfare programs. Join us in making a difference.</p>
                     </div>
                 </div>
                 <div class="col-md-2">
@@ -226,18 +223,10 @@
                         <h3 class="footer-title">Quick Links</h3>
                         <ul>
                             <li><a href="aboutus.html" class="text-white">About Us</a></li>
-                            <li>
-                                <a href="aboutus.html" class="text-white">Our Mission</a>
-                            </li>
-                            <li>
-                                <a href="donation-faqs.html" class="text-white">donation faqs</a>
-                            </li>
-                            <li>
-                                <a href="termcondition.html" class="text-white">Terms & Conditions</a>
-                            </li>
-                            <li>
-                                <a href="privacy-policy.html" class="text-white">Privacy Policy</a>
-                            </li>
+                            <li><a href="aboutus.html" class="text-white">Our Mission</a></li>
+                            <li><a href="donation-faqs.html" class="text-white">donation faqs</a></li>
+                            <li><a href="termcondition.html" class="text-white">Terms & Conditions</a></li>
+                            <li><a href="privacy-policy.html" class="text-white">Privacy Policy</a></li>
                         </ul>
                     </div>
                 </div>
@@ -245,25 +234,13 @@
                     <div class="">
                         <h3 class="footer-title">Programs</h3>
                         <ul>
-                            <li>
-                                <a href="education.html" class="text-white">Education for All</a>
-                            </li>
-                            <li>
-                                <a href="women.html" class="text-white">Women Empowerment</a>
-                            </li>
-                            <li>
-                                <a href="skill-development.html" class="text-white">Skill Development</a>
-                            </li>
+                            <li><a href="education.html" class="text-white">Education for All</a></li>
+                            <li><a href="women.html" class="text-white">Women Empowerment</a></li>
+                            <li><a href="skill-development.html" class="text-white">Skill Development</a></li>
                             <li><a href="gurukul.html" class="text-white">Gurukul</a></li>
-                            <li>
-                                <a href="school-development.html" class="text-white">Schools Development</a>
-                            </li>
-                            <li>
-                                <a href="spirituality.html" class="text-white">Spirituality</a>
-                            </li>
-                            <li>
-                                <a href="disabled-people.html" class="text-white">Disabled people</a>
-                            </li>
+                            <li><a href="school-development.html" class="text-white">Schools Development</a></li>
+                            <li><a href="spirituality.html" class="text-white">Spirituality</a></li>
+                            <li><a href="disabled-people.html" class="text-white">Disabled people</a></li>
                         </ul>
                     </div>
                 </div>
@@ -271,31 +248,21 @@
                     <div class="">
                         <h3 class="footer-title">Donation</h3>
                         <ul>
-                            <li>
-                                <a href="donation.html" class="text-white">One-Time Donation</a>
-                            </li>
-                            <li>
-                                <a href="donation.html" class="text-white">Monthly Giving</a>
-                            </li>
+                            <li><a href="donation.html" class="text-white">One-Time Donation</a></li>
+                            <li><a href="donation.html" class="text-white">Monthly Giving</a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-3">
                     <div class="">
                         <h3 class="footer-title">Contact</h3>
                         <ul>
-                            <li>
-                                <a href="#" class="text-white"><i class="fa-solid fa-phone"></i> 7760776677</a>
-                            </li>
-                            <li>
-                                <a href="#" class="text-white"><i class="fa-solid fa-envelope"></i>
-                                    samskaara@gmail.com</a>
-                            </li>
-                            <li>
-                                <a href="#" class="text-white"><i class="fa-solid fa-location-dot"></i> No 95, 1 st Main
-                                    Road, Block 3, BEML Layout Stage 4, Rajarajeshwari Nagara,
-                                    Bangalore-560098, Karnataka</a>
-                            </li>
+                            <li><a href="#" class="text-white"><i class="fa-solid fa-phone"></i> 7760776677</a></li>
+                            <li><a href="#" class="text-white"><i class="fa-solid fa-envelope"></i>
+                                    samskaara@gmail.com</a></li>
+                            <li><a href="#" class="text-white"><i class="fa-solid fa-location-dot"></i> No 95, 1 st Main
+                                    Road, Block 3, BEML Layout Stage 4, Rajarajeshwari Nagara, Bangalore-560098,
+                                    Karnataka</a></li>
                         </ul>
                     </div>
                 </div>

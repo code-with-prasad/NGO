@@ -26,14 +26,18 @@
 <body>
     <!-- Top Navbar  -->
     <div class="py-2" style="background-color: #0B8B68;">
-        <div class="container d-flex justify-content-between align-items-center">
-            <div class="d-flex align-items-center gap-3">
-                <span><i class="fa-solid fa-envelope text-white"></i> <a href=""
-                        class="text-white text-decoration-none"> samskaara@gmail.com</a></span>
-                <span><i class="fa-solid fa-phone text-white"></i> <a href="tell:7760776677"
-                        class="text-white text-decoration-none">7760776677</a></span>
+        <div class="container top-nav ">
+            <div class="hideIcon">
+                <div class="d-flex align-items-center gap-3">
+                    <span><i class="fa-solid fa-envelope text-white"></i> <a href=""
+                            class="text-white text-decoration-none"> samskaara@gmail.com</a></span>
+                    <span><i class="fa-solid fa-phone text-white"></i> <a href="tel:7760776677"
+                            class="text-white text-decoration-none">7760776677</a></span>
+                </div>
             </div>
             <ul class="list-unstyled m-0 d-flex align-items-center gap-4 justify-content-center">
+                <li class="showIcon"><a href="#"><i class="fa-solid fa-envelope text-white"></i></a></li>
+                <li class="showIcon"><a href="#"><i class="fa-solid fa-phone text-white"></i></a></li>
                 <li><a href="#"><i class="fa-brands fa-facebook-f text-white"></i></a></li>
                 <li><a href="#"><i class="fa-brands fa-instagram text-white"></i></a></li>
                 <li><a href="#"><i class="fa-brands fa-linkedin-in text-white"></i></a></li>
@@ -50,11 +54,10 @@
             <div class="nav__data">
                 <a href="index.html" class="nav__logo">
                     <img src="assets/image/logo1.jpeg" alt="logo">
-                    <!-- <h3>NGO</h3> -->
                 </a>
                 <div class="nav__toggle" id="nav-toggle">
-                    <i class="ri-menu-line nav__toggle-menu"></i>
-                    <i class="ri-close-line nav__toggle-close"></i>
+                    <i class="fa-solid fa-bars nav__toggle-menu"></i>
+                    <i class="fa-solid fa-xmark nav__toggle-close"></i>
                 </div>
             </div>
 
@@ -173,9 +176,9 @@
     <section class="contact-info">
         <div class="container">
             <div class="py-5">
-                <div class="row">
+                <div class="row gy-3">
                     <!-- Email Card -->
-                    <div class="col-md-4">
+                    <div class="col-lg-4 col-md-6">
                         <div class="contact-card">
                             <div class="icon">
                                 <i class="fa-solid fa-envelope"></i>
@@ -186,7 +189,7 @@
                     </div>
 
                     <!-- Phone Card -->
-                    <div class="col-md-4">
+                    <div class="col-lg-4 col-md-6">
                         <div class="contact-card phone">
                             <div class="icon">
                                 <i class="fas fa-phone-alt"></i>
@@ -197,7 +200,7 @@
                     </div>
 
                     <!-- Address Card -->
-                    <div class="col-md-4">
+                    <div class="col-lg-4 col-md-6">
                         <div class="contact-card address">
                             <div class="icon">
                                 <i class="fas fa-map-marker-alt"></i>
@@ -227,49 +230,8 @@
 
     <section class="contact-sec py-5">
         <div class="container">
-            <!-- <div class="row mt-5 shadow p-4">
-                <div class="col-md-6">
-                    <div class="contact-form">
-                        <h4 class="text-center mb-4 fw-bold">Contact Us</h4>
-                        <form id="contactForm">
-                            <input type="text" name="name" class="form-control mb-3" placeholder="Enter your Name"
-                                required>
-                            <input type="tel" name="mobile" class="form-control mb-3"
-                                placeholder="Enter your Mobile Number" required>
-                            <input type="email" name="email" class="form-control mb-3"
-                                placeholder="Enter a valid email address" required>
-                            <textarea class="form-control mb-3" name="message" rows="4" placeholder="Enter your message"
-                                required></textarea>
-                            <div class="text-end">
-                                <button type="submit" class="green-btn">Submit</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-
-                
-                <div class="col-md-6 py-5">
-                    <h4 class="fw-bold">Contact us</h4>
-                    <p><strong>Address:</strong> Plot No – .nvjfnvf, vnnvkfkv, Unit – 3, Behind BDA Office, 751001
-                    </p>
-                    <p><strong>Working Hours:</strong> Mon - Sat: 9:30 AM - 6:30 PM</p>
-                    <p><strong>Phone:</strong> +91 00 00 00 00 00</p>
-                    <p><strong>Email:</strong> <a href="mailto:contacts@esbnyc.com"
-                            style="color: navy;">contacts@esbnyc.com</a>
-                    </p>
-
-                    <h5 class="mt-4">Follow us</h5>
-                    <div class="social-icons d-flex align-items-center gap-4">
-                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                    </div>
-                </div>
-            </div> -->
-
             <div class="row">
-                <div class="col-md-7">
+                <div class="col-lg-7 col-md-12">
                     <form action="" class="sendMessage-form">
                         <div class="row gy-2">
                             <div class="col-md-6">
@@ -323,7 +285,7 @@
                         </div>
                     </form>
                 </div>
-                <div class="col-md-5">
+                <div class="col-lg-5 col-md-12 mt-4 col-lg-0">
                     <div class="px-4 py-4" style="background-color: #f2f7f2;">
                         <h2 class="mt-4">Address</h2>
                         <p class="mt-2">We’re here to assist you! Whether you have a question, need support, or want to
@@ -341,7 +303,7 @@
     <footer class="footer-sec py-5">
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div>
                         <div>
                             <img src="assets/image/logo1.jpeg" alt="logo" class="ft-logo">
@@ -386,7 +348,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-3">
                     <div class="">
                         <h3 class="footer-title">Contact</h3>
                         <ul>
